@@ -1,0 +1,3 @@
+"""
+SentinelMed Frontend Test Suite
+"""
