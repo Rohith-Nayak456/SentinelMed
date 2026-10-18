@@ -1,0 +1,1111 @@
+{
+  "mandatory_escalations": [
+    {
+      "scan_id": "test_407",
+      "original_id": "test_407",
+      "pred": 1,
+      "predicted_class": "Pneumonia",
+      "confidence": 0.5,
+      "model_version": "resnet18-epoch-2",
+      "probabilities": null,
+      "quality": {
+        "brightness": 160.67,
+        "contrast": 20.75,
+        "blur_score": 105.27,
+        "noise_score": 1.52
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "unknown",
+        "raw_status": "error"
+      },
+      "gate_status": "error",
+      "failure_causes": [
+        "LOW_CONTRAST",
+        "P3_GATE_ERROR"
+      ],
+      "failure_cause_details": [
+        {
+          "cause_code": "LOW_CONTRAST",
+          "explanation": "Observed contrast (20.75) is below threshold (25.00). Local details may be washed out.",
+          "metric_name": "contrast",
+          "metric_value": 20.75,
+          "threshold_applied": 25.0,
+          "threshold_configured": true,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        },
+        {
+          "cause_code": "P3_GATE_ERROR",
+          "explanation": "P3 Gate produced an explicit error status. Calibration or coverage check failed.",
+          "metric_name": "gate_status",
+          "metric_value": null,
+          "threshold_applied": null,
+          "threshold_configured": true,
+          "severity": "critical",
+          "cause_type": "measured",
+          "enhancement_appropriate": false,
+          "requires_escalation": true
+        }
+      ],
+      "recoverability": 0.05,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": false,
+        "status": "not_attempted",
+        "details": "Diagnosis marked image for escalation"
+      },
+      "recovery_outcome": {
+        "attempted": false,
+        "recovery_success": null,
+        "enhancement_method": null,
+        "recheck_status": "skipped",
+        "failure_reason": "Diagnosis marked image for escalation"
+      },
+      "verdict": "escalated",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": null,
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": true,
+      "latency_ms": 0.75,
+      "latency_breakdown": {
+        "validation_ms": 0.65,
+        "diagnosis_ms": 0.04,
+        "recoverability_ms": 0.03,
+        "enhancement_ms": null,
+        "recheck_ms": null,
+        "total_p4_ms": 0.75
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_407.png",
+      "enhanced_image_path": null,
+      "data_source": "real",
+      "is_demo_record": false,
+      "demo_label": null,
+      "upstream_raw": {
+        "scan_id": "test_407",
+        "original_id": "test_407",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_407.png",
+        "enhanced_image_path": null,
+        "recovery": {
+          "causes": [
+            {
+              "cause_code": "LOW_CONTRAST",
+              "explanation": "Observed contrast (20.75) is below threshold (25.00). Local details may be washed out.",
+              "metric_name": "contrast",
+              "metric_value": 20.75,
+              "threshold_applied": 25.0,
+              "threshold_configured": true,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            },
+            {
+              "cause_code": "P3_GATE_ERROR",
+              "explanation": "P3 Gate produced an explicit error status. Calibration or coverage check failed.",
+              "metric_name": "gate_status",
+              "metric_value": null,
+              "threshold_applied": null,
+              "threshold_configured": true,
+              "severity": "critical",
+              "cause_type": "measured",
+              "enhancement_appropriate": false,
+              "requires_escalation": true
+            }
+          ],
+          "recoverability": {
+            "score": 0.05,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "P3 gate error indicates fundamental failure; recoverability is extremely low."
+          },
+          "recommended_action": "escalate_for_review",
+          "attempted": false,
+          "enhancement_method": null,
+          "enhancement_parameters": null,
+          "recheck_status": "skipped",
+          "recovery_success": null,
+          "failure_reason": "Diagnosis marked image for escalation"
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 160.67,
+            "contrast": 20.75,
+            "blur_score": 105.27,
+            "noise_score": 1.52,
+            "quality_status": "p2_reported"
+          },
+          "quality_after": null,
+          "prediction_before": {
+            "predicted_class": "Pneumonia",
+            "probabilities": null,
+            "confidence": 0.5,
+            "model_version": "resnet18-epoch-2"
+          },
+          "prediction_after": null,
+          "gate_status_before": "error",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 0.65,
+          "diagnosis_ms": 0.04,
+          "recoverability_ms": 0.03,
+          "enhancement_ms": null,
+          "recheck_ms": null,
+          "total_p4_ms": 0.75
+        },
+        "data_source": "real"
+      },
+      "explanation": "This scan requires human review under the pipeline rules. Mandatory escalation was requested by the upstream pipeline. Recorded failure causes: LOW_CONTRAST, P3_GATE_ERROR. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 0,
+      "priority_reason": "Mandatory escalation"
+    }
+  ],
+  "ranked_review": [
+    {
+      "scan_id": "test_139",
+      "original_id": "test_139",
+      "pred": 1,
+      "predicted_class": "Pneumonia",
+      "confidence": 0.65,
+      "model_version": "resnet18-epoch-2",
+      "probabilities": null,
+      "quality": {
+        "brightness": 140.82,
+        "contrast": 67.25,
+        "blur_score": 6882.5,
+        "noise_score": 12.38
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "flag",
+        "raw_status": "flag"
+      },
+      "gate_status": "flag",
+      "failure_causes": [
+        "EXCESSIVE_NOISE",
+        "P3_GATE_FLAG"
+      ],
+      "failure_cause_details": [
+        {
+          "cause_code": "EXCESSIVE_NOISE",
+          "explanation": "Observed noise metric (12.38) exceeds threshold (10.00). High-frequency artifacts detected.",
+          "metric_name": "noise_score",
+          "metric_value": 12.38,
+          "threshold_applied": 10.0,
+          "threshold_configured": true,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        },
+        {
+          "cause_code": "P3_GATE_FLAG",
+          "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+          "metric_name": "gate_flag_type",
+          "metric_value": null,
+          "threshold_applied": null,
+          "threshold_configured": false,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        }
+      ],
+      "recoverability": 0.75,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": true,
+        "status": "succeeded",
+        "details": "non_local_means"
+      },
+      "recovery_outcome": {
+        "attempted": true,
+        "recovery_success": true,
+        "enhancement_method": "non_local_means",
+        "recheck_status": "verified",
+        "failure_reason": null
+      },
+      "verdict": "auto_fixed",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": "recovered; model re-check pending",
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": false,
+      "latency_ms": 7.55,
+      "latency_breakdown": {
+        "validation_ms": 0.53,
+        "diagnosis_ms": 0.04,
+        "recoverability_ms": 0.03,
+        "enhancement_ms": 4.99,
+        "recheck_ms": 1.93,
+        "total_p4_ms": 7.55
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_139.png",
+      "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_139_non_local_means.png",
+      "data_source": "real",
+      "is_demo_record": false,
+      "demo_label": null,
+      "upstream_raw": {
+        "scan_id": "test_139",
+        "original_id": "test_139",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_139.png",
+        "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_139_non_local_means.png",
+        "recovery": {
+          "causes": [
+            {
+              "cause_code": "EXCESSIVE_NOISE",
+              "explanation": "Observed noise metric (12.38) exceeds threshold (10.00). High-frequency artifacts detected.",
+              "metric_name": "noise_score",
+              "metric_value": 12.38,
+              "threshold_applied": 10.0,
+              "threshold_configured": true,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            },
+            {
+              "cause_code": "P3_GATE_FLAG",
+              "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+              "metric_name": "gate_flag_type",
+              "metric_value": null,
+              "threshold_applied": null,
+              "threshold_configured": false,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            }
+          ],
+          "recoverability": {
+            "score": 0.75,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "Targetable degradation detected: ['EXCESSIVE_NOISE', 'P3_GATE_FLAG']"
+          },
+          "recommended_action": "recovery_verified",
+          "attempted": true,
+          "enhancement_method": "non_local_means",
+          "enhancement_parameters": {
+            "h": 10.0,
+            "template_window_size": 7,
+            "search_window_size": 21
+          },
+          "recheck_status": "verified",
+          "recovery_success": true,
+          "failure_reason": null
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 140.82,
+            "contrast": 67.25,
+            "blur_score": 6882.5,
+            "noise_score": 12.38,
+            "quality_status": "p2_reported"
+          },
+          "quality_after": {
+            "brightness": 140.9,
+            "contrast": 66.98,
+            "blur_score": 6651.43,
+            "noise_score": 7.88,
+            "quality_status": "local_reference_only"
+          },
+          "prediction_before": {
+            "predicted_class": "Pneumonia",
+            "probabilities": null,
+            "confidence": 0.65,
+            "model_version": "resnet18-epoch-2"
+          },
+          "prediction_after": null,
+          "gate_status_before": "flag",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 0.53,
+          "diagnosis_ms": 0.04,
+          "recoverability_ms": 0.03,
+          "enhancement_ms": 4.99,
+          "recheck_ms": 1.93,
+          "total_p4_ms": 7.55
+        },
+        "data_source": "real"
+      },
+      "explanation": "The upstream pipeline reports that image recovery succeeded. The upstream reliability gate flagged this scan. Recorded failure causes: EXCESSIVE_NOISE, P3_GATE_FLAG. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 2,
+      "priority_reason": "Uncertainty signals unavailable"
+    },
+    {
+      "scan_id": "test_173",
+      "original_id": "test_173",
+      "pred": 1,
+      "predicted_class": "Pneumonia",
+      "confidence": 0.58,
+      "model_version": "resnet18-epoch-2",
+      "probabilities": null,
+      "quality": {
+        "brightness": 163.29,
+        "contrast": 26.5,
+        "blur_score": 92.79,
+        "noise_score": 1.47
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "flag",
+        "raw_status": "flag"
+      },
+      "gate_status": "flag",
+      "failure_causes": [
+        "BLUR_DETECTED",
+        "P3_GATE_FLAG"
+      ],
+      "failure_cause_details": [
+        {
+          "cause_code": "BLUR_DETECTED",
+          "explanation": "Observed blur metric (92.79) indicates edge degradation below threshold (100.00).",
+          "metric_name": "blur_score",
+          "metric_value": 92.79,
+          "threshold_applied": 100.0,
+          "threshold_configured": true,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        },
+        {
+          "cause_code": "P3_GATE_FLAG",
+          "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+          "metric_name": "gate_flag_type",
+          "metric_value": null,
+          "threshold_applied": null,
+          "threshold_configured": false,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        }
+      ],
+      "recoverability": 0.75,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": true,
+        "status": "succeeded",
+        "details": "unsharp_masking"
+      },
+      "recovery_outcome": {
+        "attempted": true,
+        "recovery_success": true,
+        "enhancement_method": "unsharp_masking",
+        "recheck_status": "verified",
+        "failure_reason": null
+      },
+      "verdict": "auto_fixed",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": "recovered; model re-check pending",
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": false,
+      "latency_ms": 8.5,
+      "latency_breakdown": {
+        "validation_ms": 0.58,
+        "diagnosis_ms": 0.06,
+        "recoverability_ms": 0.05,
+        "enhancement_ms": 4.73,
+        "recheck_ms": 3.04,
+        "total_p4_ms": 8.5
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_173.png",
+      "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_173_unsharp_masking.png",
+      "data_source": "real",
+      "is_demo_record": false,
+      "demo_label": null,
+      "upstream_raw": {
+        "scan_id": "test_173",
+        "original_id": "test_173",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_173.png",
+        "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_173_unsharp_masking.png",
+        "recovery": {
+          "causes": [
+            {
+              "cause_code": "BLUR_DETECTED",
+              "explanation": "Observed blur metric (92.79) indicates edge degradation below threshold (100.00).",
+              "metric_name": "blur_score",
+              "metric_value": 92.79,
+              "threshold_applied": 100.0,
+              "threshold_configured": true,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            },
+            {
+              "cause_code": "P3_GATE_FLAG",
+              "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+              "metric_name": "gate_flag_type",
+              "metric_value": null,
+              "threshold_applied": null,
+              "threshold_configured": false,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            }
+          ],
+          "recoverability": {
+            "score": 0.75,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "Targetable degradation detected: ['BLUR_DETECTED', 'P3_GATE_FLAG']"
+          },
+          "recommended_action": "recovery_verified",
+          "attempted": true,
+          "enhancement_method": "unsharp_masking",
+          "enhancement_parameters": {
+            "kernel_size": [
+              5,
+              5
+            ],
+            "sigma": 1.0,
+            "amount": 1.5
+          },
+          "recheck_status": "verified",
+          "recovery_success": true,
+          "failure_reason": null
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 163.29,
+            "contrast": 26.5,
+            "blur_score": 92.79,
+            "noise_score": 1.47,
+            "quality_status": "p2_reported"
+          },
+          "quality_after": {
+            "brightness": 162.99,
+            "contrast": 22.99,
+            "blur_score": 329.62,
+            "noise_score": 4.5,
+            "quality_status": "local_reference_only"
+          },
+          "prediction_before": {
+            "predicted_class": "Pneumonia",
+            "probabilities": null,
+            "confidence": 0.58,
+            "model_version": "resnet18-epoch-2"
+          },
+          "prediction_after": null,
+          "gate_status_before": "flag",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 0.58,
+          "diagnosis_ms": 0.06,
+          "recoverability_ms": 0.05,
+          "enhancement_ms": 4.73,
+          "recheck_ms": 3.04,
+          "total_p4_ms": 8.5
+        },
+        "data_source": "real"
+      },
+      "explanation": "The upstream pipeline reports that image recovery succeeded. The upstream reliability gate flagged this scan. Recorded failure causes: BLUR_DETECTED, P3_GATE_FLAG. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 2,
+      "priority_reason": "Uncertainty signals unavailable"
+    },
+    {
+      "scan_id": "test_7",
+      "original_id": "test_7",
+      "pred": 1,
+      "predicted_class": "Pneumonia",
+      "confidence": 0.62,
+      "model_version": "resnet18-epoch-2",
+      "probabilities": null,
+      "quality": {
+        "brightness": 171.04,
+        "contrast": 14.94,
+        "blur_score": 197.63,
+        "noise_score": 2.21
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "flag",
+        "raw_status": "flag"
+      },
+      "gate_status": "flag",
+      "failure_causes": [
+        "LOW_CONTRAST",
+        "P3_GATE_FLAG"
+      ],
+      "failure_cause_details": [
+        {
+          "cause_code": "LOW_CONTRAST",
+          "explanation": "Observed contrast (14.94) is below threshold (25.00). Local details may be washed out.",
+          "metric_name": "contrast",
+          "metric_value": 14.94,
+          "threshold_applied": 25.0,
+          "threshold_configured": true,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        },
+        {
+          "cause_code": "P3_GATE_FLAG",
+          "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+          "metric_name": "gate_flag_type",
+          "metric_value": null,
+          "threshold_applied": null,
+          "threshold_configured": false,
+          "severity": "moderate",
+          "cause_type": "measured",
+          "enhancement_appropriate": true,
+          "requires_escalation": false
+        }
+      ],
+      "recoverability": 0.75,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": true,
+        "status": "succeeded",
+        "details": "clahe"
+      },
+      "recovery_outcome": {
+        "attempted": true,
+        "recovery_success": true,
+        "enhancement_method": "clahe",
+        "recheck_status": "verified",
+        "failure_reason": null
+      },
+      "verdict": "auto_fixed",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": "recovered; model re-check pending",
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": false,
+      "latency_ms": 8.22,
+      "latency_breakdown": {
+        "validation_ms": 0.71,
+        "diagnosis_ms": 0.06,
+        "recoverability_ms": 0.04,
+        "enhancement_ms": 3.88,
+        "recheck_ms": 3.44,
+        "total_p4_ms": 8.22
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_7.png",
+      "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_7_clahe.png",
+      "data_source": "real",
+      "is_demo_record": false,
+      "demo_label": null,
+      "upstream_raw": {
+        "scan_id": "test_7",
+        "original_id": "test_7",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\test_7.png",
+        "enhanced_image_path": "C:\\Users\\Asus\\Desktop\\SentinelMed\\outputs\\p4\\enhanced_images\\test_7_clahe.png",
+        "recovery": {
+          "causes": [
+            {
+              "cause_code": "LOW_CONTRAST",
+              "explanation": "Observed contrast (14.94) is below threshold (25.00). Local details may be washed out.",
+              "metric_name": "contrast",
+              "metric_value": 14.94,
+              "threshold_applied": 25.0,
+              "threshold_configured": true,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            },
+            {
+              "cause_code": "P3_GATE_FLAG",
+              "explanation": "P3 Conformal Gate flagged scan (flag_type='multi_class'). Prediction set: ['Normal', 'Pneumonia'].",
+              "metric_name": "gate_flag_type",
+              "metric_value": null,
+              "threshold_applied": null,
+              "threshold_configured": false,
+              "severity": "moderate",
+              "cause_type": "measured",
+              "enhancement_appropriate": true,
+              "requires_escalation": false
+            }
+          ],
+          "recoverability": {
+            "score": 0.75,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "Targetable degradation detected: ['LOW_CONTRAST', 'P3_GATE_FLAG']"
+          },
+          "recommended_action": "recovery_verified",
+          "attempted": true,
+          "enhancement_method": "clahe",
+          "enhancement_parameters": {
+            "clip_limit": 2.0,
+            "tile_grid_size": [
+              8,
+              8
+            ]
+          },
+          "recheck_status": "verified",
+          "recovery_success": true,
+          "failure_reason": null
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 171.04,
+            "contrast": 14.94,
+            "blur_score": 197.63,
+            "noise_score": 2.21,
+            "quality_status": "p2_reported"
+          },
+          "quality_after": {
+            "brightness": 166.17,
+            "contrast": 43.88,
+            "blur_score": 3041.29,
+            "noise_score": 12.7,
+            "quality_status": "local_reference_only"
+          },
+          "prediction_before": {
+            "predicted_class": "Pneumonia",
+            "probabilities": null,
+            "confidence": 0.62,
+            "model_version": "resnet18-epoch-2"
+          },
+          "prediction_after": null,
+          "gate_status_before": "flag",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 0.71,
+          "diagnosis_ms": 0.06,
+          "recoverability_ms": 0.04,
+          "enhancement_ms": 3.88,
+          "recheck_ms": 3.44,
+          "total_p4_ms": 8.22
+        },
+        "data_source": "real"
+      },
+      "explanation": "The upstream pipeline reports that image recovery succeeded. The upstream reliability gate flagged this scan. Recorded failure causes: LOW_CONTRAST, P3_GATE_FLAG. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 2,
+      "priority_reason": "Uncertainty signals unavailable"
+    }
+  ],
+  "no_review_needed": [
+    {
+      "scan_id": "test_image_rgb",
+      "original_id": "test_image",
+      "pred": 0,
+      "predicted_class": "Normal",
+      "confidence": 0.92,
+      "model_version": "demo_v1",
+      "probabilities": null,
+      "quality": {
+        "brightness": 179.88,
+        "contrast": 87.01,
+        "blur_score": 658.46,
+        "noise_score": 4.5
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "accept",
+        "raw_status": "pass"
+      },
+      "gate_status": "pass",
+      "failure_causes": [],
+      "failure_cause_details": [],
+      "recoverability": 0.5,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": false,
+        "status": "not_attempted",
+        "details": null
+      },
+      "recovery_outcome": {
+        "attempted": false,
+        "recovery_success": null,
+        "enhancement_method": null,
+        "recheck_status": "skipped",
+        "failure_reason": null
+      },
+      "verdict": "accepted",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": null,
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": false,
+      "latency_ms": 2.22,
+      "latency_breakdown": {
+        "validation_ms": 2.15,
+        "diagnosis_ms": 0.01,
+        "recoverability_ms": 0.04,
+        "enhancement_ms": null,
+        "recheck_ms": null,
+        "total_p4_ms": 2.22
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\test_image.png",
+      "enhanced_image_path": null,
+      "data_source": "real",
+      "is_demo_record": true,
+      "demo_label": "Demonstration record (demo_v1 / synthetic), not a real clinical case",
+      "upstream_raw": {
+        "scan_id": "test_image_rgb",
+        "original_id": "test_image",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\test_image.png",
+        "enhanced_image_path": null,
+        "recovery": {
+          "causes": [],
+          "recoverability": {
+            "score": 0.5,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "Default heuristic recoverability score."
+          },
+          "recommended_action": "no_recovery_needed",
+          "attempted": false,
+          "enhancement_method": null,
+          "enhancement_parameters": null,
+          "recheck_status": "skipped",
+          "recovery_success": null,
+          "failure_reason": null
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 179.88,
+            "contrast": 87.01,
+            "blur_score": 658.46,
+            "noise_score": 4.5,
+            "quality_status": "local_computed"
+          },
+          "quality_after": null,
+          "prediction_before": {
+            "predicted_class": "Normal",
+            "probabilities": null,
+            "confidence": 0.92,
+            "model_version": "demo_v1"
+          },
+          "prediction_after": null,
+          "gate_status_before": "pass",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 2.15,
+          "diagnosis_ms": 0.01,
+          "recoverability_ms": 0.04,
+          "enhancement_ms": null,
+          "recheck_ms": null,
+          "total_p4_ms": 2.22
+        },
+        "data_source": "real"
+      },
+      "explanation": "The upstream pipeline accepted this scan. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 2,
+      "priority_reason": "Uncertainty signals unavailable"
+    },
+    {
+      "scan_id": "val_0",
+      "original_id": "val_0",
+      "pred": 1,
+      "predicted_class": "Pneumonia",
+      "confidence": 0.88,
+      "model_version": "resnet18-epoch-2",
+      "probabilities": null,
+      "quality": {
+        "brightness": 128.02,
+        "contrast": 26.98,
+        "blur_score": 182.05,
+        "noise_score": 2.17
+      },
+      "uncertainty": {
+        "entropy": null,
+        "mc_variance": null,
+        "model_disagreement": null
+      },
+      "gate": {
+        "status": "accept",
+        "raw_status": "pass"
+      },
+      "gate_status": "pass",
+      "failure_causes": [],
+      "failure_cause_details": [],
+      "recoverability": 0.5,
+      "recoverability_is_calibrated": false,
+      "recoverability_model": "rule_based_baseline",
+      "recovery": {
+        "attempted": false,
+        "status": "not_attempted",
+        "details": null
+      },
+      "recovery_outcome": {
+        "attempted": false,
+        "recovery_success": null,
+        "enhancement_method": null,
+        "recheck_status": "skipped",
+        "failure_reason": null
+      },
+      "verdict": "accepted",
+      "verdict_provenance": "derived by P5, needs P4 confirmation",
+      "review_reason": null,
+      "gate_status_after": null,
+      "prediction_after": null,
+      "mandatory_escalation": false,
+      "latency_ms": 2.54,
+      "latency_breakdown": {
+        "validation_ms": 2.35,
+        "diagnosis_ms": 0.04,
+        "recoverability_ms": 0.07,
+        "enhancement_ms": null,
+        "recheck_ms": null,
+        "total_p4_ms": 2.54
+      },
+      "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\val\\val_0.png",
+      "enhanced_image_path": null,
+      "data_source": "real",
+      "is_demo_record": false,
+      "demo_label": null,
+      "upstream_raw": {
+        "scan_id": "val_0",
+        "original_id": "val_0",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\val\\val_0.png",
+        "enhanced_image_path": null,
+        "recovery": {
+          "causes": [],
+          "recoverability": {
+            "score": 0.5,
+            "is_calibrated_probability": false,
+            "model_name": "rule_based_baseline",
+            "baseline_used": true,
+            "features_used": [
+              "p2_brightness",
+              "p2_contrast",
+              "p2_blur_score",
+              "p2_noise_score",
+              "p1_entropy",
+              "p1_mc_variance",
+              "p1_disagreement",
+              "p1_confidence",
+              "p3_gate_status_flag",
+              "p3_gate_status_error",
+              "p3_prediction_set_size",
+              "diagnosed_low_contrast",
+              "diagnosed_blur",
+              "diagnosed_noise",
+              "diagnosed_low_brightness"
+            ],
+            "feature_contributions": null,
+            "explanation": "Default heuristic recoverability score."
+          },
+          "recommended_action": "no_recovery_needed",
+          "attempted": false,
+          "enhancement_method": null,
+          "enhancement_parameters": null,
+          "recheck_status": "skipped",
+          "recovery_success": null,
+          "failure_reason": null
+        },
+        "verification": {
+          "quality_before": {
+            "brightness": 128.02,
+            "contrast": 26.98,
+            "blur_score": 182.05,
+            "noise_score": 2.17,
+            "quality_status": "p2_verified"
+          },
+          "quality_after": null,
+          "prediction_before": {
+            "predicted_class": "Pneumonia",
+            "probabilities": null,
+            "confidence": 0.88,
+            "model_version": "resnet18-epoch-2"
+          },
+          "prediction_after": null,
+          "gate_status_before": "pass",
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 2.35,
+          "diagnosis_ms": 0.04,
+          "recoverability_ms": 0.07,
+          "enhancement_ms": null,
+          "recheck_ms": null,
+          "total_p4_ms": 2.54
+        },
+        "data_source": "real"
+      },
+      "explanation": "The upstream pipeline accepted this scan. Available image-quality measurements: brightness, contrast, blur_score, noise_score. Uncertainty measurements are unavailable. This explanation describes pipeline outputs and is not a medical diagnosis.",
+      "priority_score": null,
+      "priority_category": 2,
+      "priority_reason": "Uncertainty signals unavailable"
+    }
+  ],
+  "errors": [
+    {
+      "scan_id": "missing_case_999",
+      "error_type": "upstream_validation_failure",
+      "failure_reason": "Validation failed: original_image_path: Image file does not exist on disk at path: C:\\Users\\Asus\\Downloads\\data\\raw\\test\\nonexistent_image_999.png",
+      "raw_record": {
+        "scan_id": "missing_case_999",
+        "original_id": "patient_999",
+        "original_image_path": "C:\\Users\\Asus\\Downloads\\data\\raw\\test\\nonexistent_image_999.png",
+        "enhanced_image_path": null,
+        "recovery": {
+          "causes": [
+            {
+              "cause_code": "IMAGE_FILE_NOT_FOUND",
+              "explanation": "Image file does not exist on disk at path: C:\\Users\\Asus\\Downloads\\data\\raw\\test\\nonexistent_image_999.png"
+            }
+          ],
+          "recoverability": null,
+          "recommended_action": "escalate_for_review",
+          "attempted": false,
+          "enhancement_method": null,
+          "enhancement_parameters": null,
+          "recheck_status": "error",
+          "recovery_success": false,
+          "failure_reason": "Validation failed: original_image_path: Image file does not exist on disk at path: C:\\Users\\Asus\\Downloads\\data\\raw\\test\\nonexistent_image_999.png"
+        },
+        "verification": {
+          "quality_before": null,
+          "quality_after": null,
+          "prediction_before": null,
+          "prediction_after": null,
+          "gate_status_before": null,
+          "gate_status_after": null
+        },
+        "latency_ms": {
+          "validation_ms": 0.11,
+          "diagnosis_ms": null,
+          "recoverability_ms": null,
+          "enhancement_ms": null,
+          "recheck_ms": null,
+          "total_p4_ms": 0.12
+        },
+        "data_source": "synthetic_test"
+      }
+    }
+  ]
+}

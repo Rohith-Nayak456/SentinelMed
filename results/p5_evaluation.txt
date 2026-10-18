@@ -1,0 +1,74 @@
+================================================================================
+SENTINELMED P5 — REVIEW PRIORITISATION EVALUATION REPORT
+================================================================================
+
+Dataset:                  6 valid P4 handoff records
+Total Cases:              6
+Proxy Target Positives:   4 cases
+Random Seed:              42
+
+PROXY TARGET DEFINITION (Identical to Review Queue Placement):
+Target = records requiring human technical review:
+  1. Mandatory escalations (test_407; P3_GATE_ERROR)
+  2. Auto-fixed records pending verification re-check (gate_status_after is null;
+     test_7, test_173, test_139; labeled 'recovered; model re-check pending')
+Non-target = accepted records with pass gate and no recovery needed (val_0, test_image_rgb).
+
+TIE-BREAKING POLICY:
+Ties within priority categories are broken deterministically by:
+  1. Priority score descending (if available)
+  2. Recoverability score ascending (prioritizing lower recoverability cases)
+  3. scan_id ascending (lexicographical tie-breaker)
+
+CRITICAL LIMITATIONS & HONEST DISCLOSURES:
+1. Uncertainty-Only Ranking Not Evaluable:
+   P4 handoff data provides NO uncertainty signals (entropy, mc_variance, and
+   model_disagreement are all null). Consequently, uncertainty_only is marked
+   'not evaluable (no uncertainty signals)' and is NOT plotted as a competitor.
+2. Heuristic Recoverability Baseline:
+   Recoverability scores are from an uncalibrated rule-based baseline:
+   0.75 for recovered records, 0.50 for accepted baseline records, and 0.05 for test_407.
+3. Software Demonstration Only:
+   With only 6 valid records and overlapping proxy signals, this evaluation
+   demonstrates software mechanics only; it does NOT demonstrate clinical
+   effectiveness or doctor workload reduction.
+
+PER-CASE STATUS & PROXY TARGET:
+  - test_407       : review_required=True  | gate_before=error | gate_after=None | verdict=escalated | mandatory=True
+  - test_139       : review_required=True  | gate_before=flag | gate_after=None | verdict=auto_fixed | mandatory=False
+  - test_173       : review_required=True  | gate_before=flag | gate_after=None | verdict=auto_fixed | mandatory=False
+  - test_7         : review_required=True  | gate_before=flag | gate_after=None | verdict=auto_fixed | mandatory=False
+  - test_image_rgb : review_required=False | gate_before=pass | gate_after=None | verdict=accepted | mandatory=False
+  - val_0          : review_required=False | gate_before=pass | gate_after=None | verdict=accepted | mandatory=False
+
+STRATEGY PERFORMANCE ACROSS REVIEW BUDGETS:
+
+--- Review Budget = 1 cases (16.7% review capacity) ---
+  random                   : Identified 1/4 | Recall: 0.250 | Precision: 1.000
+  recoverability_aware     : Identified 1/4 | Recall: 0.250 | Precision: 1.000
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)
+
+--- Review Budget = 2 cases (33.3% review capacity) ---
+  random                   : Identified 2/4 | Recall: 0.500 | Precision: 1.000
+  recoverability_aware     : Identified 2/4 | Recall: 0.500 | Precision: 1.000
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)
+
+--- Review Budget = 3 cases (50.0% review capacity) ---
+  random                   : Identified 3/4 | Recall: 0.750 | Precision: 1.000
+  recoverability_aware     : Identified 3/4 | Recall: 0.750 | Precision: 1.000
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)
+
+--- Review Budget = 4 cases (66.7% review capacity) ---
+  random                   : Identified 3/4 | Recall: 0.750 | Precision: 0.750
+  recoverability_aware     : Identified 4/4 | Recall: 1.000 | Precision: 1.000
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)
+
+--- Review Budget = 5 cases (83.3% review capacity) ---
+  random                   : Identified 4/4 | Recall: 1.000 | Precision: 0.800
+  recoverability_aware     : Identified 4/4 | Recall: 1.000 | Precision: 0.800
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)
+
+--- Review Budget = 6 cases (100.0% review capacity) ---
+  random                   : Identified 4/4 | Recall: 1.000 | Precision: 0.667
+  recoverability_aware     : Identified 4/4 | Recall: 1.000 | Precision: 0.667
+  uncertainty_only         : NOT EVALUABLE (no uncertainty signals provided in P4 handoff)

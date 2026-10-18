@@ -1,0 +1,118 @@
+[
+  {
+    "scan_id": "SCAN-001",
+    "pred": 0,
+    "probabilities": [0.95, 0.05],
+    "quality": {
+      "brightness": 120.0,
+      "contrast": 45.0,
+      "blur_score": 12.0,
+      "noise_score": 4.0
+    },
+    "uncertainty": {
+      "entropy": 0.05,
+      "mc_variance": 0.01,
+      "model_disagreement": 0.02
+    },
+    "gate": {
+      "status": "accept"
+    },
+    "failure_causes": [],
+    "recoverability": 0.95,
+    "recovery": {
+      "attempted": false,
+      "status": "not_attempted",
+      "details": null
+    },
+    "verdict": "accepted",
+    "mandatory_escalation": false,
+    "latency_ms": 120
+  },
+  {
+    "scan_id": "SCAN-002",
+    "pred": 1,
+    "probabilities": [0.55, 0.45],
+    "quality": {
+      "brightness": 90.0,
+      "contrast": 18.0,
+      "blur_score": 3.0,
+      "noise_score": 8.0
+    },
+    "uncertainty": {
+      "entropy": 0.95,
+      "mc_variance": 0.18,
+      "model_disagreement": 0.75
+    },
+    "gate": {
+      "status": "flag"
+    },
+    "failure_causes": ["quality", "ambiguous"],
+    "recoverability": 0.45,
+    "recovery": {
+      "attempted": false,
+      "status": "not_attempted",
+      "details": null
+    },
+    "verdict": "escalated",
+    "mandatory_escalation": false,
+    "latency_ms": 160
+  },
+  {
+    "scan_id": "SCAN-003",
+    "pred": 1,
+    "probabilities": [0.10, 0.90],
+    "quality": {
+      "brightness": 115.0,
+      "contrast": 38.0,
+      "blur_score": 10.0,
+      "noise_score": 5.0
+    },
+    "uncertainty": {
+      "entropy": 0.25,
+      "mc_variance": 0.03,
+      "model_disagreement": 0.10
+    },
+    "gate": {
+      "status": "flag"
+    },
+    "failure_causes": ["quality"],
+    "recoverability": 0.90,
+    "recovery": {
+      "attempted": true,
+      "status": "succeeded",
+      "details": "Synthetic replay success"
+    },
+    "verdict": "auto_fixed",
+    "mandatory_escalation": false,
+    "latency_ms": 250
+  },
+  {
+    "scan_id": "SCAN-004",
+    "pred": 1,
+    "probabilities": [0.50, 0.50],
+    "quality": {
+      "brightness": 85.0,
+      "contrast": 12.0,
+      "blur_score": 1.0,
+      "noise_score": 11.0
+    },
+    "uncertainty": {
+      "entropy": 1.0,
+      "mc_variance": 0.22,
+      "model_disagreement": 0.90
+    },
+    "gate": {
+      "status": "flag"
+    },
+    "failure_causes": ["quality", "disagree"],
+    "recoverability": 0.10,
+    "recovery": {
+      "attempted": true,
+      "status": "failed",
+      "details": "Synthetic replay failure"
+    },
+    "verdict": "escalated",
+    "mandatory_escalation": true,
+    "latency_ms": 400
+  }
+]
