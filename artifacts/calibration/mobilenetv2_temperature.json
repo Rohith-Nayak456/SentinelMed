@@ -1,0 +1,14 @@
+{
+  "model_name": "mobilenetv2",
+  "model_version": "mobilenetv2-epoch-3",
+  "temperature": 0.9993647336959839,
+  "fit_images": 262,
+  "assessment_images": 262,
+  "assessment_nll_before": 0.22052493691444397,
+  "assessment_nll_after": 0.22054806351661682,
+  "assessment_ece_before": 0.028562253341078758,
+  "assessment_ece_after": 0.028553234413266182,
+  "ece_bins": 15,
+  "validation_only": true,
+  "test_split_used": false
+}

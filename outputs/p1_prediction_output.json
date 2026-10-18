@@ -1,0 +1,18 @@
+{
+    "image_id": "val_0",
+    "predicted_class": "Pneumonia",
+    "probabilities": {
+        "Normal": 5.745964699599426e-06,
+        "Pneumonia": 0.9999942779541016
+    },
+    "confidence": 0.9999942779541016,
+    "uncertainty": {
+        "predictive_entropy": 7.50586587663288e-05,
+        "mc_dropout_variance": {
+            "Normal": 8.426449815690518e-11,
+            "Pneumonia": 8.41968855747055e-11
+        }
+    },
+    "model_version": "resnet18-epoch-2",
+    "inference_latency_ms": 9.771200129762292
+}

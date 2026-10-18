@@ -1,0 +1,48 @@
+{
+  "model": "mobilenetv2",
+  "checkpoint_epoch": 3,
+  "test_images": 624,
+  "accuracy": 0.8605769230769231,
+  "macro_f1": 0.8440748261610089,
+  "confusion_matrix": [
+    [
+      167,
+      67
+    ],
+    [
+      20,
+      370
+    ]
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 0.893048128342246,
+      "recall": 0.7136752136752137,
+      "f1-score": 0.7933491686460807,
+      "support": 234.0
+    },
+    "Pneumonia": {
+      "precision": 0.8466819221967964,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.8948004836759371,
+      "support": 390.0
+    },
+    "accuracy": 0.8605769230769231,
+    "macro avg": {
+      "precision": 0.8698650252695213,
+      "recall": 0.8311965811965811,
+      "f1-score": 0.8440748261610089,
+      "support": 624.0
+    },
+    "weighted avg": {
+      "precision": 0.86406924950134,
+      "recall": 0.8605769230769231,
+      "f1-score": 0.856756240539741,
+      "support": 624.0
+    }
+  },
+  "mean_batch_inference_ms": 33.858564984984696,
+  "mean_inference_ms_per_image": 1.0852104161854068,
+  "latency_note": "Model forward-pass timing; excludes image loading and preprocessing. Per-image latency is averaged across batches.",
+  "probability_note": "Softmax probabilities from the uncalibrated model."
+}

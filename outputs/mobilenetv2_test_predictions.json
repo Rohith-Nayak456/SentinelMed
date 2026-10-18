@@ -1,0 +1,6866 @@
+[
+  {
+    "image_id": "test_0",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007551900926046073,
+      "Pneumonia": 0.9992448091506958
+    },
+    "confidence": 0.9992448091506958,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_1",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.05516557767987251,
+      "Pneumonia": 0.9448344707489014
+    },
+    "confidence": 0.9448344707489014,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_2",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.12486382573843002,
+      "Pneumonia": 0.875136137008667
+    },
+    "confidence": 0.875136137008667,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_3",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9876982569694519,
+      "Pneumonia": 0.012301777489483356
+    },
+    "confidence": 0.9876982569694519,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_4",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005764839588664472,
+      "Pneumonia": 0.9994235038757324
+    },
+    "confidence": 0.9994235038757324,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_5",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00023341388441622257,
+      "Pneumonia": 0.9997666478157043
+    },
+    "confidence": 0.9997666478157043,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_6",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006424312479794025,
+      "Pneumonia": 0.9935757517814636
+    },
+    "confidence": 0.9935757517814636,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_7",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002508722827769816,
+      "Pneumonia": 0.9997491240501404
+    },
+    "confidence": 0.9997491240501404,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_8",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.02024807408452034,
+      "Pneumonia": 0.9797520041465759
+    },
+    "confidence": 0.9797520041465759,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_9",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.1608809381723404,
+      "Pneumonia": 0.8391190767288208
+    },
+    "confidence": 0.8391190767288208,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_10",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000134911693749018,
+      "Pneumonia": 0.9998650550842285
+    },
+    "confidence": 0.9998650550842285,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_11",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005153766833245754,
+      "Pneumonia": 0.9948462247848511
+    },
+    "confidence": 0.9948462247848511,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_12",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00470674317330122,
+      "Pneumonia": 0.9952932000160217
+    },
+    "confidence": 0.9952932000160217,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_13",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00020370414131321013,
+      "Pneumonia": 0.9997963309288025
+    },
+    "confidence": 0.9997963309288025,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_14",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.9062536358833313,
+      "Pneumonia": 0.09374640882015228
+    },
+    "confidence": 0.9062536358833313,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_15",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0063268570229411125,
+      "Pneumonia": 0.9936732053756714
+    },
+    "confidence": 0.9936732053756714,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_16",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007629112806171179,
+      "Pneumonia": 0.999237060546875
+    },
+    "confidence": 0.999237060546875,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_17",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.7050891518592834,
+      "Pneumonia": 0.29491087794303894
+    },
+    "confidence": 0.7050891518592834,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_18",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008636621641926467,
+      "Pneumonia": 0.9991363883018494
+    },
+    "confidence": 0.9991363883018494,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_19",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9455466270446777,
+      "Pneumonia": 0.054453328251838684
+    },
+    "confidence": 0.9455466270446777,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_20",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9653598070144653,
+      "Pneumonia": 0.034640222787857056
+    },
+    "confidence": 0.9653598070144653,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_21",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00026952591724693775,
+      "Pneumonia": 0.9997304081916809
+    },
+    "confidence": 0.9997304081916809,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_22",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0059980181977152824,
+      "Pneumonia": 0.9940019249916077
+    },
+    "confidence": 0.9940019249916077,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_23",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.21660619974136353,
+      "Pneumonia": 0.7833938598632812
+    },
+    "confidence": 0.7833938598632812,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_24",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.027158597484230995,
+      "Pneumonia": 0.9728413820266724
+    },
+    "confidence": 0.9728413820266724,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_25",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9949780106544495,
+      "Pneumonia": 0.005021978635340929
+    },
+    "confidence": 0.9949780106544495,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_26",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0009610654669813812,
+      "Pneumonia": 0.9990389347076416
+    },
+    "confidence": 0.9990389347076416,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_27",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6673673987388611,
+      "Pneumonia": 0.33263257145881653
+    },
+    "confidence": 0.6673673987388611,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_28",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7928874492645264,
+      "Pneumonia": 0.20711250603199005
+    },
+    "confidence": 0.7928874492645264,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_29",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0017686572391539812,
+      "Pneumonia": 0.9982313513755798
+    },
+    "confidence": 0.9982313513755798,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_30",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8608056902885437,
+      "Pneumonia": 0.1391943097114563
+    },
+    "confidence": 0.8608056902885437,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_31",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07154079526662827,
+      "Pneumonia": 0.9284592270851135
+    },
+    "confidence": 0.9284592270851135,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_32",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003451929660513997,
+      "Pneumonia": 0.9996547698974609
+    },
+    "confidence": 0.9996547698974609,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_33",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.013616088777780533,
+      "Pneumonia": 0.986383855342865
+    },
+    "confidence": 0.986383855342865,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_34",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00029611994978040457,
+      "Pneumonia": 0.9997038245201111
+    },
+    "confidence": 0.9997038245201111,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_35",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.21843083202838898,
+      "Pneumonia": 0.7815691232681274
+    },
+    "confidence": 0.7815691232681274,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_36",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9698795080184937,
+      "Pneumonia": 0.030120516195893288
+    },
+    "confidence": 0.9698795080184937,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_37",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005941953510046005,
+      "Pneumonia": 0.9940580129623413
+    },
+    "confidence": 0.9940580129623413,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_38",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7690699100494385,
+      "Pneumonia": 0.23093003034591675
+    },
+    "confidence": 0.7690699100494385,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_39",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7770955562591553,
+      "Pneumonia": 0.22290442883968353
+    },
+    "confidence": 0.7770955562591553,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_40",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00032293915865011513,
+      "Pneumonia": 0.9996770620346069
+    },
+    "confidence": 0.9996770620346069,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_41",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9761288166046143,
+      "Pneumonia": 0.02387119084596634
+    },
+    "confidence": 0.9761288166046143,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_42",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9783249497413635,
+      "Pneumonia": 0.021675046533346176
+    },
+    "confidence": 0.9783249497413635,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_43",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4502077102661133,
+      "Pneumonia": 0.5497922301292419
+    },
+    "confidence": 0.5497922301292419,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_44",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.10458431392908096,
+      "Pneumonia": 0.895415723323822
+    },
+    "confidence": 0.895415723323822,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_45",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003925670753233135,
+      "Pneumonia": 0.999607503414154
+    },
+    "confidence": 0.999607503414154,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_46",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.911526620388031,
+      "Pneumonia": 0.08847343176603317
+    },
+    "confidence": 0.911526620388031,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_47",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004327399074099958,
+      "Pneumonia": 0.9995672106742859
+    },
+    "confidence": 0.9995672106742859,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_48",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00393701484426856,
+      "Pneumonia": 0.9960629343986511
+    },
+    "confidence": 0.9960629343986511,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_49",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.029918568208813667,
+      "Pneumonia": 0.9700813889503479
+    },
+    "confidence": 0.9700813889503479,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_50",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9448839426040649,
+      "Pneumonia": 0.05511606112122536
+    },
+    "confidence": 0.9448839426040649,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_51",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0038510127924382687,
+      "Pneumonia": 0.996148943901062
+    },
+    "confidence": 0.996148943901062,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_52",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9911323189735413,
+      "Pneumonia": 0.008867624215781689
+    },
+    "confidence": 0.9911323189735413,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_53",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003072865947615355,
+      "Pneumonia": 0.9996927976608276
+    },
+    "confidence": 0.9996927976608276,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_54",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.2673422396183014,
+      "Pneumonia": 0.7326577305793762
+    },
+    "confidence": 0.7326577305793762,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_55",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9615210890769958,
+      "Pneumonia": 0.038478873670101166
+    },
+    "confidence": 0.9615210890769958,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_56",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0014005462871864438,
+      "Pneumonia": 0.9985994696617126
+    },
+    "confidence": 0.9985994696617126,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_57",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8803281188011169,
+      "Pneumonia": 0.11967182159423828
+    },
+    "confidence": 0.8803281188011169,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_58",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7815165519714355,
+      "Pneumonia": 0.21848344802856445
+    },
+    "confidence": 0.7815165519714355,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_59",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.001874734996818006,
+      "Pneumonia": 0.9981252551078796
+    },
+    "confidence": 0.9981252551078796,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_60",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9942799806594849,
+      "Pneumonia": 0.005720070563256741
+    },
+    "confidence": 0.9942799806594849,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_61",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.890191912651062,
+      "Pneumonia": 0.10980809479951859
+    },
+    "confidence": 0.890191912651062,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_62",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9332684874534607,
+      "Pneumonia": 0.06673150509595871
+    },
+    "confidence": 0.9332684874534607,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_63",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.021266674622893333,
+      "Pneumonia": 0.9787333607673645
+    },
+    "confidence": 0.9787333607673645,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_64",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.001197167905047536,
+      "Pneumonia": 0.9988027811050415
+    },
+    "confidence": 0.9988027811050415,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_65",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005996278487145901,
+      "Pneumonia": 0.9994003772735596
+    },
+    "confidence": 0.9994003772735596,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_66",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7746052742004395,
+      "Pneumonia": 0.22539468109607697
+    },
+    "confidence": 0.7746052742004395,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_67",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.0038103305269032717,
+      "Pneumonia": 0.9961896538734436
+    },
+    "confidence": 0.9961896538734436,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_68",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.1359821856021881,
+      "Pneumonia": 0.8640177845954895
+    },
+    "confidence": 0.8640177845954895,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_69",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9358817934989929,
+      "Pneumonia": 0.06411820650100708
+    },
+    "confidence": 0.9358817934989929,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_70",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005590181099250913,
+      "Pneumonia": 0.9994409680366516
+    },
+    "confidence": 0.9994409680366516,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_71",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.2378096878528595,
+      "Pneumonia": 0.7621903419494629
+    },
+    "confidence": 0.7621903419494629,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_72",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7783880829811096,
+      "Pneumonia": 0.22161191701889038
+    },
+    "confidence": 0.7783880829811096,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_73",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.003635270055383444,
+      "Pneumonia": 0.9963647723197937
+    },
+    "confidence": 0.9963647723197937,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_74",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005703894887119532,
+      "Pneumonia": 0.994296133518219
+    },
+    "confidence": 0.994296133518219,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_75",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.016093622893095016,
+      "Pneumonia": 0.9839063882827759
+    },
+    "confidence": 0.9839063882827759,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_76",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5089535117149353,
+      "Pneumonia": 0.4910465180873871
+    },
+    "confidence": 0.5089535117149353,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_77",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6182957291603088,
+      "Pneumonia": 0.38170427083969116
+    },
+    "confidence": 0.6182957291603088,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_78",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.2499910444021225,
+      "Pneumonia": 0.7500089406967163
+    },
+    "confidence": 0.7500089406967163,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_79",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012999175814911723,
+      "Pneumonia": 0.9987000226974487
+    },
+    "confidence": 0.9987000226974487,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_80",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012308540754020214,
+      "Pneumonia": 0.9987691044807434
+    },
+    "confidence": 0.9987691044807434,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_81",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004156595969107002,
+      "Pneumonia": 0.9995843768119812
+    },
+    "confidence": 0.9995843768119812,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_82",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.010195649228990078,
+      "Pneumonia": 0.9898043870925903
+    },
+    "confidence": 0.9898043870925903,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_83",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8012036085128784,
+      "Pneumonia": 0.19879646599292755
+    },
+    "confidence": 0.8012036085128784,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_84",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9585943222045898,
+      "Pneumonia": 0.04140566661953926
+    },
+    "confidence": 0.9585943222045898,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_85",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6189255714416504,
+      "Pneumonia": 0.381074458360672
+    },
+    "confidence": 0.6189255714416504,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_86",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8721526265144348,
+      "Pneumonia": 0.12784737348556519
+    },
+    "confidence": 0.8721526265144348,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_87",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.293796569108963,
+      "Pneumonia": 0.7062034606933594
+    },
+    "confidence": 0.7062034606933594,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_88",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.8827880024909973,
+      "Pneumonia": 0.11721201241016388
+    },
+    "confidence": 0.8827880024909973,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_89",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9930429458618164,
+      "Pneumonia": 0.006957121659070253
+    },
+    "confidence": 0.9930429458618164,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_90",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002088988898321986,
+      "Pneumonia": 0.9979110360145569
+    },
+    "confidence": 0.9979110360145569,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_91",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.021419234573841095,
+      "Pneumonia": 0.9785808324813843
+    },
+    "confidence": 0.9785808324813843,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_92",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007579940720461309,
+      "Pneumonia": 0.9992420673370361
+    },
+    "confidence": 0.9992420673370361,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_93",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9792166352272034,
+      "Pneumonia": 0.020783323794603348
+    },
+    "confidence": 0.9792166352272034,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_94",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004659731057472527,
+      "Pneumonia": 0.999534010887146
+    },
+    "confidence": 0.999534010887146,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_95",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.030296409502625465,
+      "Pneumonia": 0.9697035551071167
+    },
+    "confidence": 0.9697035551071167,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_96",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0075257024727761745,
+      "Pneumonia": 0.9924742579460144
+    },
+    "confidence": 0.9924742579460144,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_97",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8353084921836853,
+      "Pneumonia": 0.1646914929151535
+    },
+    "confidence": 0.8353084921836853,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_98",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9835161566734314,
+      "Pneumonia": 0.016483796760439873
+    },
+    "confidence": 0.9835161566734314,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_99",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.034604690968990326,
+      "Pneumonia": 0.9653953909873962
+    },
+    "confidence": 0.9653953909873962,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_100",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010136179625988007,
+      "Pneumonia": 0.9989864230155945
+    },
+    "confidence": 0.9989864230155945,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_101",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03049820102751255,
+      "Pneumonia": 0.9695017337799072
+    },
+    "confidence": 0.9695017337799072,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_102",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.6468983888626099,
+      "Pneumonia": 0.35310158133506775
+    },
+    "confidence": 0.6468983888626099,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_103",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.001250570872798562,
+      "Pneumonia": 0.9987493753433228
+    },
+    "confidence": 0.9987493753433228,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_104",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005935882800258696,
+      "Pneumonia": 0.9994064569473267
+    },
+    "confidence": 0.9994064569473267,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_105",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0013782365713268518,
+      "Pneumonia": 0.9986218214035034
+    },
+    "confidence": 0.9986218214035034,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_106",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9757894277572632,
+      "Pneumonia": 0.02421058900654316
+    },
+    "confidence": 0.9757894277572632,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_107",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.328447163105011,
+      "Pneumonia": 0.671552836894989
+    },
+    "confidence": 0.671552836894989,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_108",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.012179368175566196,
+      "Pneumonia": 0.987820565700531
+    },
+    "confidence": 0.987820565700531,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_109",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.19364461302757263,
+      "Pneumonia": 0.8063552975654602
+    },
+    "confidence": 0.8063552975654602,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_110",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.09690429270267487,
+      "Pneumonia": 0.9030957221984863
+    },
+    "confidence": 0.9030957221984863,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_111",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006166599923744798,
+      "Pneumonia": 0.9993833303451538
+    },
+    "confidence": 0.9993833303451538,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_112",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.3076096773147583,
+      "Pneumonia": 0.6923903226852417
+    },
+    "confidence": 0.6923903226852417,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_113",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0048200348392128944,
+      "Pneumonia": 0.9951800107955933
+    },
+    "confidence": 0.9951800107955933,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_114",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.47636762261390686,
+      "Pneumonia": 0.5236323475837708
+    },
+    "confidence": 0.5236323475837708,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_115",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.04028669372200966,
+      "Pneumonia": 0.9597132802009583
+    },
+    "confidence": 0.9597132802009583,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_116",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.011981206014752388,
+      "Pneumonia": 0.9880188703536987
+    },
+    "confidence": 0.9880188703536987,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_117",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0051813493482768536,
+      "Pneumonia": 0.9948186278343201
+    },
+    "confidence": 0.9948186278343201,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_118",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.22308799624443054,
+      "Pneumonia": 0.7769120335578918
+    },
+    "confidence": 0.7769120335578918,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_119",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9620805978775024,
+      "Pneumonia": 0.03791941702365875
+    },
+    "confidence": 0.9620805978775024,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_120",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0014135735109448433,
+      "Pneumonia": 0.9985864162445068
+    },
+    "confidence": 0.9985864162445068,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_121",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015776181826367974,
+      "Pneumonia": 0.998422384262085
+    },
+    "confidence": 0.998422384262085,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_122",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.011592508293688297,
+      "Pneumonia": 0.9884074330329895
+    },
+    "confidence": 0.9884074330329895,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_123",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.04545581340789795,
+      "Pneumonia": 0.954544186592102
+    },
+    "confidence": 0.954544186592102,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_124",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012457745615392923,
+      "Pneumonia": 0.9987542629241943
+    },
+    "confidence": 0.9987542629241943,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_125",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5860729217529297,
+      "Pneumonia": 0.4139271080493927
+    },
+    "confidence": 0.5860729217529297,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_126",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7979529500007629,
+      "Pneumonia": 0.20204704999923706
+    },
+    "confidence": 0.7979529500007629,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_127",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007977004279382527,
+      "Pneumonia": 0.999202311038971
+    },
+    "confidence": 0.999202311038971,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_128",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7187447547912598,
+      "Pneumonia": 0.28125521540641785
+    },
+    "confidence": 0.7187447547912598,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_129",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.22094883024692535,
+      "Pneumonia": 0.7790511846542358
+    },
+    "confidence": 0.7790511846542358,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_130",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.008315220475196838,
+      "Pneumonia": 0.9916847944259644
+    },
+    "confidence": 0.9916847944259644,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_131",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.016103606671094894,
+      "Pneumonia": 0.9838963747024536
+    },
+    "confidence": 0.9838963747024536,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_132",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006310500204563141,
+      "Pneumonia": 0.9936895370483398
+    },
+    "confidence": 0.9936895370483398,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_133",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.003021462121978402,
+      "Pneumonia": 0.9969785213470459
+    },
+    "confidence": 0.9969785213470459,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_134",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.111915722489357,
+      "Pneumonia": 0.8880842924118042
+    },
+    "confidence": 0.8880842924118042,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_135",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03698008880019188,
+      "Pneumonia": 0.963019847869873
+    },
+    "confidence": 0.963019847869873,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_136",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9644355177879333,
+      "Pneumonia": 0.03556451573967934
+    },
+    "confidence": 0.9644355177879333,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_137",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00017143630248028785,
+      "Pneumonia": 0.999828577041626
+    },
+    "confidence": 0.999828577041626,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_138",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015328257577493787,
+      "Pneumonia": 0.9984671473503113
+    },
+    "confidence": 0.9984671473503113,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_139",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.916563093662262,
+      "Pneumonia": 0.08343691378831863
+    },
+    "confidence": 0.916563093662262,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_140",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.014076095074415207,
+      "Pneumonia": 0.9859238862991333
+    },
+    "confidence": 0.9859238862991333,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_141",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.06569115072488785,
+      "Pneumonia": 0.9343088865280151
+    },
+    "confidence": 0.9343088865280151,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_142",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6751574277877808,
+      "Pneumonia": 0.32484257221221924
+    },
+    "confidence": 0.6751574277877808,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_143",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7614964246749878,
+      "Pneumonia": 0.2385036051273346
+    },
+    "confidence": 0.7614964246749878,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_144",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9160588979721069,
+      "Pneumonia": 0.08394107967615128
+    },
+    "confidence": 0.9160588979721069,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_145",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8014398813247681,
+      "Pneumonia": 0.19856007397174835
+    },
+    "confidence": 0.8014398813247681,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_146",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.918725848197937,
+      "Pneumonia": 0.08127415925264359
+    },
+    "confidence": 0.918725848197937,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_147",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6278203725814819,
+      "Pneumonia": 0.3721795976161957
+    },
+    "confidence": 0.6278203725814819,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_148",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.7399130463600159,
+      "Pneumonia": 0.26008692383766174
+    },
+    "confidence": 0.7399130463600159,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_149",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00785298366099596,
+      "Pneumonia": 0.9921470284461975
+    },
+    "confidence": 0.9921470284461975,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_150",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5710968971252441,
+      "Pneumonia": 0.4289030432701111
+    },
+    "confidence": 0.5710968971252441,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_151",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.054939571768045425,
+      "Pneumonia": 0.9450604319572449
+    },
+    "confidence": 0.9450604319572449,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_152",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9945969581604004,
+      "Pneumonia": 0.005403057672083378
+    },
+    "confidence": 0.9945969581604004,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_153",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.2967168390750885,
+      "Pneumonia": 0.7032831311225891
+    },
+    "confidence": 0.7032831311225891,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_154",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015764342388138175,
+      "Pneumonia": 0.9984235763549805
+    },
+    "confidence": 0.9984235763549805,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_155",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005461567780002952,
+      "Pneumonia": 0.9994538426399231
+    },
+    "confidence": 0.9994538426399231,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_156",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002543437876738608,
+      "Pneumonia": 0.9997456669807434
+    },
+    "confidence": 0.9997456669807434,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_157",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.04255586862564087,
+      "Pneumonia": 0.9574440717697144
+    },
+    "confidence": 0.9574440717697144,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_158",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.10492581874132156,
+      "Pneumonia": 0.8950741291046143
+    },
+    "confidence": 0.8950741291046143,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_159",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012122587068006396,
+      "Pneumonia": 0.9987877011299133
+    },
+    "confidence": 0.9987877011299133,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_160",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7248052954673767,
+      "Pneumonia": 0.2751946747303009
+    },
+    "confidence": 0.7248052954673767,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_161",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.11652766168117523,
+      "Pneumonia": 0.8834723830223083
+    },
+    "confidence": 0.8834723830223083,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_162",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001162497719633393,
+      "Pneumonia": 0.999883770942688
+    },
+    "confidence": 0.999883770942688,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_163",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0023446909617632627,
+      "Pneumonia": 0.9976552724838257
+    },
+    "confidence": 0.9976552724838257,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_164",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9060443639755249,
+      "Pneumonia": 0.09395560622215271
+    },
+    "confidence": 0.9060443639755249,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_165",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8358743190765381,
+      "Pneumonia": 0.16412566602230072
+    },
+    "confidence": 0.8358743190765381,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_166",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5329748392105103,
+      "Pneumonia": 0.4670252203941345
+    },
+    "confidence": 0.5329748392105103,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_167",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.010434200055897236,
+      "Pneumonia": 0.9895658493041992
+    },
+    "confidence": 0.9895658493041992,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_168",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.4711429178714752,
+      "Pneumonia": 0.5288570523262024
+    },
+    "confidence": 0.5288570523262024,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_169",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011444429401308298,
+      "Pneumonia": 0.9988555908203125
+    },
+    "confidence": 0.9988555908203125,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_170",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009114312939345837,
+      "Pneumonia": 0.9908856749534607
+    },
+    "confidence": 0.9908856749534607,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_171",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3376355469226837,
+      "Pneumonia": 0.6623644232749939
+    },
+    "confidence": 0.6623644232749939,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_172",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011946833692491055,
+      "Pneumonia": 0.9988052845001221
+    },
+    "confidence": 0.9988052845001221,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_173",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00017323464271612465,
+      "Pneumonia": 0.9998268485069275
+    },
+    "confidence": 0.9998268485069275,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_174",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.923163652420044,
+      "Pneumonia": 0.07683634757995605
+    },
+    "confidence": 0.923163652420044,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_175",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0037795156240463257,
+      "Pneumonia": 0.9962205290794373
+    },
+    "confidence": 0.9962205290794373,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_176",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.8765931129455566,
+      "Pneumonia": 0.12340685725212097
+    },
+    "confidence": 0.8765931129455566,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_177",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8528624176979065,
+      "Pneumonia": 0.14713755249977112
+    },
+    "confidence": 0.8528624176979065,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_178",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.02121470309793949,
+      "Pneumonia": 0.9787852764129639
+    },
+    "confidence": 0.9787852764129639,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_179",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.029904654249548912,
+      "Pneumonia": 0.9700952768325806
+    },
+    "confidence": 0.9700952768325806,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_180",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07810197025537491,
+      "Pneumonia": 0.9218980073928833
+    },
+    "confidence": 0.9218980073928833,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_181",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0034978145267814398,
+      "Pneumonia": 0.996502161026001
+    },
+    "confidence": 0.996502161026001,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_182",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.017555849626660347,
+      "Pneumonia": 0.9824441075325012
+    },
+    "confidence": 0.9824441075325012,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_183",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.012414492666721344,
+      "Pneumonia": 0.9875855445861816
+    },
+    "confidence": 0.9875855445861816,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_184",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003241557569708675,
+      "Pneumonia": 0.9996758699417114
+    },
+    "confidence": 0.9996758699417114,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_185",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6093533635139465,
+      "Pneumonia": 0.39064666628837585
+    },
+    "confidence": 0.6093533635139465,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_186",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9120745062828064,
+      "Pneumonia": 0.08792557567358017
+    },
+    "confidence": 0.9120745062828064,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_187",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8981164693832397,
+      "Pneumonia": 0.10188349336385727
+    },
+    "confidence": 0.8981164693832397,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_188",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006337324157357216,
+      "Pneumonia": 0.9936627149581909
+    },
+    "confidence": 0.9936627149581909,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_189",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.956242561340332,
+      "Pneumonia": 0.04375743493437767
+    },
+    "confidence": 0.956242561340332,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_190",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.025297867134213448,
+      "Pneumonia": 0.9747021198272705
+    },
+    "confidence": 0.9747021198272705,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_191",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8306587338447571,
+      "Pneumonia": 0.16934125125408173
+    },
+    "confidence": 0.8306587338447571,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_192",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3641180694103241,
+      "Pneumonia": 0.6358819603919983
+    },
+    "confidence": 0.6358819603919983,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_193",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009892154484987259,
+      "Pneumonia": 0.9901078939437866
+    },
+    "confidence": 0.9901078939437866,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_194",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9779579043388367,
+      "Pneumonia": 0.02204214595258236
+    },
+    "confidence": 0.9779579043388367,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_195",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5472049713134766,
+      "Pneumonia": 0.45279502868652344
+    },
+    "confidence": 0.5472049713134766,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_196",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.053561195731163025,
+      "Pneumonia": 0.9464387893676758
+    },
+    "confidence": 0.9464387893676758,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_197",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004024863243103027,
+      "Pneumonia": 0.9959751963615417
+    },
+    "confidence": 0.9959751963615417,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_198",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00018744661065284163,
+      "Pneumonia": 0.9998125433921814
+    },
+    "confidence": 0.9998125433921814,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_199",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.20336781442165375,
+      "Pneumonia": 0.7966321110725403
+    },
+    "confidence": 0.7966321110725403,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_200",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3702411353588104,
+      "Pneumonia": 0.6297588348388672
+    },
+    "confidence": 0.6297588348388672,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_201",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.12297844141721725,
+      "Pneumonia": 0.8770216107368469
+    },
+    "confidence": 0.8770216107368469,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_202",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0037614002358168364,
+      "Pneumonia": 0.9962385892868042
+    },
+    "confidence": 0.9962385892868042,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_203",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0014046269934624434,
+      "Pneumonia": 0.9985954165458679
+    },
+    "confidence": 0.9985954165458679,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_204",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0840228796005249,
+      "Pneumonia": 0.9159771203994751
+    },
+    "confidence": 0.9159771203994751,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_205",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01184092927724123,
+      "Pneumonia": 0.9881590604782104
+    },
+    "confidence": 0.9881590604782104,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_206",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.007007009815424681,
+      "Pneumonia": 0.9929929971694946
+    },
+    "confidence": 0.9929929971694946,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_207",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012242607772350311,
+      "Pneumonia": 0.9987757802009583
+    },
+    "confidence": 0.9987757802009583,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_208",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8937146067619324,
+      "Pneumonia": 0.10628537088632584
+    },
+    "confidence": 0.8937146067619324,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_209",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0022870164830237627,
+      "Pneumonia": 0.9977129697799683
+    },
+    "confidence": 0.9977129697799683,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_210",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9858280420303345,
+      "Pneumonia": 0.014171899296343327
+    },
+    "confidence": 0.9858280420303345,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_211",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008703653002157807,
+      "Pneumonia": 0.999129593372345
+    },
+    "confidence": 0.999129593372345,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_212",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00037807447370141745,
+      "Pneumonia": 0.9996218681335449
+    },
+    "confidence": 0.9996218681335449,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_213",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.047116730362176895,
+      "Pneumonia": 0.9528833031654358
+    },
+    "confidence": 0.9528833031654358,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_214",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0038662166334688663,
+      "Pneumonia": 0.9961338043212891
+    },
+    "confidence": 0.9961338043212891,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_215",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0021117455326020718,
+      "Pneumonia": 0.9978882670402527
+    },
+    "confidence": 0.9978882670402527,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_216",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008591498481109738,
+      "Pneumonia": 0.9991408586502075
+    },
+    "confidence": 0.9991408586502075,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_217",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.3020225167274475,
+      "Pneumonia": 0.6979775428771973
+    },
+    "confidence": 0.6979775428771973,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_218",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0020353456493467093,
+      "Pneumonia": 0.99796462059021
+    },
+    "confidence": 0.99796462059021,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_219",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0026325888466089964,
+      "Pneumonia": 0.9973674416542053
+    },
+    "confidence": 0.9973674416542053,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_220",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8467056751251221,
+      "Pneumonia": 0.15329432487487793
+    },
+    "confidence": 0.8467056751251221,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_221",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7412282824516296,
+      "Pneumonia": 0.25877174735069275
+    },
+    "confidence": 0.7412282824516296,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_222",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7591617107391357,
+      "Pneumonia": 0.24083822965621948
+    },
+    "confidence": 0.7591617107391357,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_223",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5178518891334534,
+      "Pneumonia": 0.48214808106422424
+    },
+    "confidence": 0.5178518891334534,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_224",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8460152745246887,
+      "Pneumonia": 0.1539846956729889
+    },
+    "confidence": 0.8460152745246887,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_225",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001424932706868276,
+      "Pneumonia": 0.9998575448989868
+    },
+    "confidence": 0.9998575448989868,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_226",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.817162275314331,
+      "Pneumonia": 0.18283775448799133
+    },
+    "confidence": 0.817162275314331,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_227",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00023165062884800136,
+      "Pneumonia": 0.9997683167457581
+    },
+    "confidence": 0.9997683167457581,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_228",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009168772958219051,
+      "Pneumonia": 0.990831196308136
+    },
+    "confidence": 0.990831196308136,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_229",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5364338159561157,
+      "Pneumonia": 0.4635661840438843
+    },
+    "confidence": 0.5364338159561157,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_230",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00021513312822207808,
+      "Pneumonia": 0.9997848868370056
+    },
+    "confidence": 0.9997848868370056,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_231",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.2730518877506256,
+      "Pneumonia": 0.726948082447052
+    },
+    "confidence": 0.726948082447052,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_232",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.01653275080025196,
+      "Pneumonia": 0.9834672808647156
+    },
+    "confidence": 0.9834672808647156,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_233",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.19033916294574738,
+      "Pneumonia": 0.8096608519554138
+    },
+    "confidence": 0.8096608519554138,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_234",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.759354293346405,
+      "Pneumonia": 0.24064576625823975
+    },
+    "confidence": 0.759354293346405,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_235",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01171812042593956,
+      "Pneumonia": 0.9882819056510925
+    },
+    "confidence": 0.9882819056510925,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_236",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9703275561332703,
+      "Pneumonia": 0.029672374948859215
+    },
+    "confidence": 0.9703275561332703,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_237",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7204294800758362,
+      "Pneumonia": 0.2795705199241638
+    },
+    "confidence": 0.7204294800758362,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_238",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0424640066921711,
+      "Pneumonia": 0.957535982131958
+    },
+    "confidence": 0.957535982131958,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_239",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6560083031654358,
+      "Pneumonia": 0.3439916968345642
+    },
+    "confidence": 0.6560083031654358,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_240",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8346867561340332,
+      "Pneumonia": 0.16531319916248322
+    },
+    "confidence": 0.8346867561340332,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_241",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3940708041191101,
+      "Pneumonia": 0.6059291362762451
+    },
+    "confidence": 0.6059291362762451,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_242",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.13216276466846466,
+      "Pneumonia": 0.8678371906280518
+    },
+    "confidence": 0.8678371906280518,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_243",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8866718411445618,
+      "Pneumonia": 0.11332812905311584
+    },
+    "confidence": 0.8866718411445618,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_244",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0032529316376894712,
+      "Pneumonia": 0.9967470169067383
+    },
+    "confidence": 0.9967470169067383,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_245",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0032963973935693502,
+      "Pneumonia": 0.996703565120697
+    },
+    "confidence": 0.996703565120697,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_246",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.21036571264266968,
+      "Pneumonia": 0.7896342873573303
+    },
+    "confidence": 0.7896342873573303,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_247",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08907660096883774,
+      "Pneumonia": 0.910923421382904
+    },
+    "confidence": 0.910923421382904,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_248",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.05446090176701546,
+      "Pneumonia": 0.9455390572547913
+    },
+    "confidence": 0.9455390572547913,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_249",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.1370714008808136,
+      "Pneumonia": 0.862928569316864
+    },
+    "confidence": 0.862928569316864,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_250",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.008733680471777916,
+      "Pneumonia": 0.9912663102149963
+    },
+    "confidence": 0.9912663102149963,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_251",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7351248264312744,
+      "Pneumonia": 0.2648751437664032
+    },
+    "confidence": 0.7351248264312744,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_252",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002902132226154208,
+      "Pneumonia": 0.9970978498458862
+    },
+    "confidence": 0.9970978498458862,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_253",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010616942308843136,
+      "Pneumonia": 0.998938262462616
+    },
+    "confidence": 0.998938262462616,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_254",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009220759384334087,
+      "Pneumonia": 0.9907792806625366
+    },
+    "confidence": 0.9907792806625366,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_255",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.334844172000885,
+      "Pneumonia": 0.6651558876037598
+    },
+    "confidence": 0.6651558876037598,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_256",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00726693170145154,
+      "Pneumonia": 0.9927330017089844
+    },
+    "confidence": 0.9927330017089844,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_257",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0016271662898361683,
+      "Pneumonia": 0.9983727931976318
+    },
+    "confidence": 0.9983727931976318,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_258",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7205284237861633,
+      "Pneumonia": 0.27947157621383667
+    },
+    "confidence": 0.7205284237861633,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_259",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.724084198474884,
+      "Pneumonia": 0.2759157717227936
+    },
+    "confidence": 0.724084198474884,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_260",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0019300937419757247,
+      "Pneumonia": 0.9980699419975281
+    },
+    "confidence": 0.9980699419975281,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_261",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.011707697995007038,
+      "Pneumonia": 0.9882922768592834
+    },
+    "confidence": 0.9882922768592834,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_262",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07235027104616165,
+      "Pneumonia": 0.9276497960090637
+    },
+    "confidence": 0.9276497960090637,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_263",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002769298735074699,
+      "Pneumonia": 0.9997230172157288
+    },
+    "confidence": 0.9997230172157288,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_264",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.999091386795044,
+      "Pneumonia": 0.0009086304344236851
+    },
+    "confidence": 0.999091386795044,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_265",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.13999179005622864,
+      "Pneumonia": 0.8600082397460938
+    },
+    "confidence": 0.8600082397460938,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_266",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9428582787513733,
+      "Pneumonia": 0.057141803205013275
+    },
+    "confidence": 0.9428582787513733,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_267",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7341440916061401,
+      "Pneumonia": 0.26585593819618225
+    },
+    "confidence": 0.7341440916061401,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_268",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00038332174881361425,
+      "Pneumonia": 0.9996166229248047
+    },
+    "confidence": 0.9996166229248047,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_269",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000981782446615398,
+      "Pneumonia": 0.9990181922912598
+    },
+    "confidence": 0.9990181922912598,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_270",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5200012922286987,
+      "Pneumonia": 0.4799986779689789
+    },
+    "confidence": 0.5200012922286987,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_271",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004650960676372051,
+      "Pneumonia": 0.995349109172821
+    },
+    "confidence": 0.995349109172821,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_272",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003354143991600722,
+      "Pneumonia": 0.9996645450592041
+    },
+    "confidence": 0.9996645450592041,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_273",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4056788384914398,
+      "Pneumonia": 0.5943211913108826
+    },
+    "confidence": 0.5943211913108826,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_274",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0062057338654994965,
+      "Pneumonia": 0.9937942028045654
+    },
+    "confidence": 0.9937942028045654,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_275",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004889366682618856,
+      "Pneumonia": 0.9951105713844299
+    },
+    "confidence": 0.9951105713844299,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_276",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00023590674391016364,
+      "Pneumonia": 0.9997641444206238
+    },
+    "confidence": 0.9997641444206238,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_277",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006156098563224077,
+      "Pneumonia": 0.9938439130783081
+    },
+    "confidence": 0.9938439130783081,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_278",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9726263880729675,
+      "Pneumonia": 0.027373554185032845
+    },
+    "confidence": 0.9726263880729675,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_279",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.007329918444156647,
+      "Pneumonia": 0.9926700592041016
+    },
+    "confidence": 0.9926700592041016,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_280",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6868609189987183,
+      "Pneumonia": 0.31313905119895935
+    },
+    "confidence": 0.6868609189987183,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_281",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6930350065231323,
+      "Pneumonia": 0.3069649934768677
+    },
+    "confidence": 0.6930350065231323,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_282",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8891627788543701,
+      "Pneumonia": 0.1108371689915657
+    },
+    "confidence": 0.8891627788543701,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_283",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001605917641427368,
+      "Pneumonia": 0.9998394250869751
+    },
+    "confidence": 0.9998394250869751,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_284",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.003978948574513197,
+      "Pneumonia": 0.9960210919380188
+    },
+    "confidence": 0.9960210919380188,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_285",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5967392325401306,
+      "Pneumonia": 0.4032607674598694
+    },
+    "confidence": 0.5967392325401306,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_286",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001629152538953349,
+      "Pneumonia": 0.9998370409011841
+    },
+    "confidence": 0.9998370409011841,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_287",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00029421536601148546,
+      "Pneumonia": 0.9997057318687439
+    },
+    "confidence": 0.9997057318687439,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_288",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5048636198043823,
+      "Pneumonia": 0.49513643980026245
+    },
+    "confidence": 0.5048636198043823,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_289",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01755358837544918,
+      "Pneumonia": 0.9824464321136475
+    },
+    "confidence": 0.9824464321136475,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_290",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8028494715690613,
+      "Pneumonia": 0.19715054333209991
+    },
+    "confidence": 0.8028494715690613,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_291",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08464104682207108,
+      "Pneumonia": 0.9153590202331543
+    },
+    "confidence": 0.9153590202331543,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_292",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8532038331031799,
+      "Pneumonia": 0.14679619669914246
+    },
+    "confidence": 0.8532038331031799,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_293",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9102550148963928,
+      "Pneumonia": 0.08974500745534897
+    },
+    "confidence": 0.9102550148963928,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_294",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006772599183022976,
+      "Pneumonia": 0.9932274222373962
+    },
+    "confidence": 0.9932274222373962,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_295",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03700213134288788,
+      "Pneumonia": 0.9629978537559509
+    },
+    "confidence": 0.9629978537559509,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_296",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006620187778025866,
+      "Pneumonia": 0.9993379712104797
+    },
+    "confidence": 0.9993379712104797,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_297",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8369303941726685,
+      "Pneumonia": 0.16306954622268677
+    },
+    "confidence": 0.8369303941726685,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_298",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08138900250196457,
+      "Pneumonia": 0.9186110496520996
+    },
+    "confidence": 0.9186110496520996,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_299",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0020007856655865908,
+      "Pneumonia": 0.9979992508888245
+    },
+    "confidence": 0.9979992508888245,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_300",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00034551267162896693,
+      "Pneumonia": 0.9996545314788818
+    },
+    "confidence": 0.9996545314788818,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_301",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00026178514235652983,
+      "Pneumonia": 0.9997381567955017
+    },
+    "confidence": 0.9997381567955017,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_302",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0017108374740928411,
+      "Pneumonia": 0.998289167881012
+    },
+    "confidence": 0.998289167881012,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_303",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07021718472242355,
+      "Pneumonia": 0.9297827482223511
+    },
+    "confidence": 0.9297827482223511,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_304",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0016821535537019372,
+      "Pneumonia": 0.9983178377151489
+    },
+    "confidence": 0.9983178377151489,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_305",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015358580276370049,
+      "Pneumonia": 0.9984641075134277
+    },
+    "confidence": 0.9984641075134277,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_306",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005223863990977407,
+      "Pneumonia": 0.9994776844978333
+    },
+    "confidence": 0.9994776844978333,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_307",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.18522480130195618,
+      "Pneumonia": 0.8147752285003662
+    },
+    "confidence": 0.8147752285003662,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_308",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010915279854089022,
+      "Pneumonia": 0.998908519744873
+    },
+    "confidence": 0.998908519744873,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_309",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8640966415405273,
+      "Pneumonia": 0.13590334355831146
+    },
+    "confidence": 0.8640966415405273,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_310",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9940283298492432,
+      "Pneumonia": 0.0059716710820794106
+    },
+    "confidence": 0.9940283298492432,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_311",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009114312939345837,
+      "Pneumonia": 0.9908856749534607
+    },
+    "confidence": 0.9908856749534607,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_312",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.03885607421398163,
+      "Pneumonia": 0.9611438512802124
+    },
+    "confidence": 0.9611438512802124,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_313",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.10699745267629623,
+      "Pneumonia": 0.8930025696754456
+    },
+    "confidence": 0.8930025696754456,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_314",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.19988864660263062,
+      "Pneumonia": 0.8001114130020142
+    },
+    "confidence": 0.8001114130020142,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_315",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0009655944304540753,
+      "Pneumonia": 0.9990344047546387
+    },
+    "confidence": 0.9990344047546387,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_316",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004348517977632582,
+      "Pneumonia": 0.9995651841163635
+    },
+    "confidence": 0.9995651841163635,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_317",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.487197607755661,
+      "Pneumonia": 0.5128024220466614
+    },
+    "confidence": 0.5128024220466614,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_318",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0025844897609204054,
+      "Pneumonia": 0.9974155426025391
+    },
+    "confidence": 0.9974155426025391,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_319",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9778347611427307,
+      "Pneumonia": 0.022165250033140182
+    },
+    "confidence": 0.9778347611427307,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_320",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5843467116355896,
+      "Pneumonia": 0.4156533181667328
+    },
+    "confidence": 0.5843467116355896,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_321",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00012084537593182176,
+      "Pneumonia": 0.9998791217803955
+    },
+    "confidence": 0.9998791217803955,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_322",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002957940741907805,
+      "Pneumonia": 0.9997041821479797
+    },
+    "confidence": 0.9997041821479797,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_323",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9784224033355713,
+      "Pneumonia": 0.021577652543783188
+    },
+    "confidence": 0.9784224033355713,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_324",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.09900955110788345,
+      "Pneumonia": 0.9009904861450195
+    },
+    "confidence": 0.9009904861450195,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_325",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.19016408920288086,
+      "Pneumonia": 0.8098358511924744
+    },
+    "confidence": 0.8098358511924744,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_326",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0016128018032759428,
+      "Pneumonia": 0.9983872175216675
+    },
+    "confidence": 0.9983872175216675,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_327",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000825616589281708,
+      "Pneumonia": 0.9991744160652161
+    },
+    "confidence": 0.9991744160652161,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_328",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.04622696340084076,
+      "Pneumonia": 0.9537729620933533
+    },
+    "confidence": 0.9537729620933533,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_329",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008384574903175235,
+      "Pneumonia": 0.9991616010665894
+    },
+    "confidence": 0.9991616010665894,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_330",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7033646106719971,
+      "Pneumonia": 0.29663529992103577
+    },
+    "confidence": 0.7033646106719971,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_331",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03200315684080124,
+      "Pneumonia": 0.9679967761039734
+    },
+    "confidence": 0.9679967761039734,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_332",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.05425630137324333,
+      "Pneumonia": 0.94574373960495
+    },
+    "confidence": 0.94574373960495,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_333",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007136439671739936,
+      "Pneumonia": 0.9992863535881042
+    },
+    "confidence": 0.9992863535881042,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_334",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.009523318149149418,
+      "Pneumonia": 0.9904767274856567
+    },
+    "confidence": 0.9904767274856567,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_335",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005875334143638611,
+      "Pneumonia": 0.994124710559845
+    },
+    "confidence": 0.994124710559845,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_336",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0031957929022610188,
+      "Pneumonia": 0.9968042373657227
+    },
+    "confidence": 0.9968042373657227,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_337",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.19572997093200684,
+      "Pneumonia": 0.8042700290679932
+    },
+    "confidence": 0.8042700290679932,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_338",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7188940644264221,
+      "Pneumonia": 0.2811059057712555
+    },
+    "confidence": 0.7188940644264221,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_339",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.07300455123186111,
+      "Pneumonia": 0.9269954562187195
+    },
+    "confidence": 0.9269954562187195,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_340",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000796475273091346,
+      "Pneumonia": 0.9992035031318665
+    },
+    "confidence": 0.9992035031318665,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_341",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005626418278552592,
+      "Pneumonia": 0.9994373917579651
+    },
+    "confidence": 0.9994373917579651,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_342",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00011952150816796347,
+      "Pneumonia": 0.9998804330825806
+    },
+    "confidence": 0.9998804330825806,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_343",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010454829316586256,
+      "Pneumonia": 0.9989545345306396
+    },
+    "confidence": 0.9989545345306396,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_344",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.010541164316236973,
+      "Pneumonia": 0.9894587993621826
+    },
+    "confidence": 0.9894587993621826,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_345",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.795283854007721,
+      "Pneumonia": 0.20471619069576263
+    },
+    "confidence": 0.795283854007721,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_346",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00032952570472843945,
+      "Pneumonia": 0.9996705055236816
+    },
+    "confidence": 0.9996705055236816,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_347",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015755750937387347,
+      "Pneumonia": 0.9984244108200073
+    },
+    "confidence": 0.9984244108200073,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_348",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00015927340427879244,
+      "Pneumonia": 0.9998407363891602
+    },
+    "confidence": 0.9998407363891602,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_349",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.714569628238678,
+      "Pneumonia": 0.285430371761322
+    },
+    "confidence": 0.714569628238678,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_350",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9682039618492126,
+      "Pneumonia": 0.031796034425497055
+    },
+    "confidence": 0.9682039618492126,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_351",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012353002093732357,
+      "Pneumonia": 0.9987647533416748
+    },
+    "confidence": 0.9987647533416748,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_352",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00015485001495108008,
+      "Pneumonia": 0.9998451471328735
+    },
+    "confidence": 0.9998451471328735,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_353",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9588992595672607,
+      "Pneumonia": 0.041100725531578064
+    },
+    "confidence": 0.9588992595672607,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_354",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9411525130271912,
+      "Pneumonia": 0.05884755030274391
+    },
+    "confidence": 0.9411525130271912,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_355",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0018953514518216252,
+      "Pneumonia": 0.9981045722961426
+    },
+    "confidence": 0.9981045722961426,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_356",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.003121505258604884,
+      "Pneumonia": 0.9968785047531128
+    },
+    "confidence": 0.9968785047531128,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_357",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.950390100479126,
+      "Pneumonia": 0.049609843641519547
+    },
+    "confidence": 0.950390100479126,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_358",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0019170109881088138,
+      "Pneumonia": 0.9980829954147339
+    },
+    "confidence": 0.9980829954147339,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_359",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.028130512684583664,
+      "Pneumonia": 0.9718695282936096
+    },
+    "confidence": 0.9718695282936096,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_360",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.013503127731382847,
+      "Pneumonia": 0.9864968657493591
+    },
+    "confidence": 0.9864968657493591,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_361",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002570400945842266,
+      "Pneumonia": 0.9974295496940613
+    },
+    "confidence": 0.9974295496940613,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_362",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.003005358623340726,
+      "Pneumonia": 0.9969946146011353
+    },
+    "confidence": 0.9969946146011353,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_363",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.014532985165715218,
+      "Pneumonia": 0.9854670763015747
+    },
+    "confidence": 0.9854670763015747,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_364",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.025485273450613022,
+      "Pneumonia": 0.9745147228240967
+    },
+    "confidence": 0.9745147228240967,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_365",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9943537712097168,
+      "Pneumonia": 0.00564621202647686
+    },
+    "confidence": 0.9943537712097168,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_366",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00514208385720849,
+      "Pneumonia": 0.994857907295227
+    },
+    "confidence": 0.994857907295227,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_367",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9106250405311584,
+      "Pneumonia": 0.08937495946884155
+    },
+    "confidence": 0.9106250405311584,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_368",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5445166826248169,
+      "Pneumonia": 0.4554832875728607
+    },
+    "confidence": 0.5445166826248169,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_369",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.014350108802318573,
+      "Pneumonia": 0.9856498837471008
+    },
+    "confidence": 0.9856498837471008,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_370",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.0005850903107784688,
+      "Pneumonia": 0.9994149208068848
+    },
+    "confidence": 0.9994149208068848,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_371",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.06367392838001251,
+      "Pneumonia": 0.9363260865211487
+    },
+    "confidence": 0.9363260865211487,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_372",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8502662777900696,
+      "Pneumonia": 0.14973372220993042
+    },
+    "confidence": 0.8502662777900696,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_373",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07062554359436035,
+      "Pneumonia": 0.9293744564056396
+    },
+    "confidence": 0.9293744564056396,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_374",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0024608816020190716,
+      "Pneumonia": 0.9975391626358032
+    },
+    "confidence": 0.9975391626358032,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_375",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9922462105751038,
+      "Pneumonia": 0.007753819692879915
+    },
+    "confidence": 0.9922462105751038,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_376",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8534301519393921,
+      "Pneumonia": 0.1465698629617691
+    },
+    "confidence": 0.8534301519393921,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_377",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7623132467269897,
+      "Pneumonia": 0.23768670856952667
+    },
+    "confidence": 0.7623132467269897,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_378",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.13148653507232666,
+      "Pneumonia": 0.8685135245323181
+    },
+    "confidence": 0.8685135245323181,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_379",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002368267858400941,
+      "Pneumonia": 0.9976316690444946
+    },
+    "confidence": 0.9976316690444946,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_380",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.02992897294461727,
+      "Pneumonia": 0.9700710773468018
+    },
+    "confidence": 0.9700710773468018,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_381",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07416433095932007,
+      "Pneumonia": 0.9258356690406799
+    },
+    "confidence": 0.9258356690406799,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_382",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9890061616897583,
+      "Pneumonia": 0.01099383644759655
+    },
+    "confidence": 0.9890061616897583,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_383",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00021822167036589235,
+      "Pneumonia": 0.9997817873954773
+    },
+    "confidence": 0.9997817873954773,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_384",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.91704922914505,
+      "Pneumonia": 0.08295071125030518
+    },
+    "confidence": 0.91704922914505,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_385",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9489838480949402,
+      "Pneumonia": 0.05101614072918892
+    },
+    "confidence": 0.9489838480949402,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_386",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4940442442893982,
+      "Pneumonia": 0.5059557557106018
+    },
+    "confidence": 0.5059557557106018,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_387",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0035014012828469276,
+      "Pneumonia": 0.9964985847473145
+    },
+    "confidence": 0.9964985847473145,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_388",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003731246979441494,
+      "Pneumonia": 0.999626874923706
+    },
+    "confidence": 0.999626874923706,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_389",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00904212985187769,
+      "Pneumonia": 0.9909578561782837
+    },
+    "confidence": 0.9909578561782837,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_390",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8803905844688416,
+      "Pneumonia": 0.11960936337709427
+    },
+    "confidence": 0.8803905844688416,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_391",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5723795890808105,
+      "Pneumonia": 0.42762041091918945
+    },
+    "confidence": 0.5723795890808105,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_392",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9813629388809204,
+      "Pneumonia": 0.018637022003531456
+    },
+    "confidence": 0.9813629388809204,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_393",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.10917402058839798,
+      "Pneumonia": 0.8908259868621826
+    },
+    "confidence": 0.8908259868621826,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_394",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4245342016220093,
+      "Pneumonia": 0.5754657983779907
+    },
+    "confidence": 0.5754657983779907,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_395",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015857417602092028,
+      "Pneumonia": 0.9984142780303955
+    },
+    "confidence": 0.9984142780303955,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_396",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9867392778396606,
+      "Pneumonia": 0.013260690495371819
+    },
+    "confidence": 0.9867392778396606,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_397",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005062883137725294,
+      "Pneumonia": 0.9994937181472778
+    },
+    "confidence": 0.9994937181472778,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_398",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.08480967581272125,
+      "Pneumonia": 0.9151903390884399
+    },
+    "confidence": 0.9151903390884399,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_399",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3411265015602112,
+      "Pneumonia": 0.6588735580444336
+    },
+    "confidence": 0.6588735580444336,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_400",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005554766859859228,
+      "Pneumonia": 0.994445264339447
+    },
+    "confidence": 0.994445264339447,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_401",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0017108374740928411,
+      "Pneumonia": 0.998289167881012
+    },
+    "confidence": 0.998289167881012,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_402",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00042454589856788516,
+      "Pneumonia": 0.9995754361152649
+    },
+    "confidence": 0.9995754361152649,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_403",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0367816761136055,
+      "Pneumonia": 0.9632183313369751
+    },
+    "confidence": 0.9632183313369751,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_404",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.013582915998995304,
+      "Pneumonia": 0.9864170551300049
+    },
+    "confidence": 0.9864170551300049,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_405",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0015610193368047476,
+      "Pneumonia": 0.9984390139579773
+    },
+    "confidence": 0.9984390139579773,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_406",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.16544440388679504,
+      "Pneumonia": 0.8345555663108826
+    },
+    "confidence": 0.8345555663108826,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_407",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001627548481337726,
+      "Pneumonia": 0.9998371601104736
+    },
+    "confidence": 0.9998371601104736,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_408",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8947222232818604,
+      "Pneumonia": 0.10527774691581726
+    },
+    "confidence": 0.8947222232818604,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_409",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005660806782543659,
+      "Pneumonia": 0.9943391680717468
+    },
+    "confidence": 0.9943391680717468,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_410",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6798302531242371,
+      "Pneumonia": 0.32016968727111816
+    },
+    "confidence": 0.6798302531242371,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_411",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.24671617150306702,
+      "Pneumonia": 0.7532838582992554
+    },
+    "confidence": 0.7532838582992554,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_412",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8134174346923828,
+      "Pneumonia": 0.186582550406456
+    },
+    "confidence": 0.8134174346923828,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_413",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.13418172299861908,
+      "Pneumonia": 0.8658183217048645
+    },
+    "confidence": 0.8658183217048645,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_414",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4390866756439209,
+      "Pneumonia": 0.5609133243560791
+    },
+    "confidence": 0.5609133243560791,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_415",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.3487042486667633,
+      "Pneumonia": 0.6512957215309143
+    },
+    "confidence": 0.6512957215309143,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_416",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.18189959228038788,
+      "Pneumonia": 0.8181004524230957
+    },
+    "confidence": 0.8181004524230957,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_417",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.007615272421389818,
+      "Pneumonia": 0.992384672164917
+    },
+    "confidence": 0.992384672164917,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_418",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000782294082455337,
+      "Pneumonia": 0.9992177486419678
+    },
+    "confidence": 0.9992177486419678,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_419",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.5225627422332764,
+      "Pneumonia": 0.47743725776672363
+    },
+    "confidence": 0.5225627422332764,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_420",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.003244837513193488,
+      "Pneumonia": 0.9967551827430725
+    },
+    "confidence": 0.9967551827430725,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_421",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.001759264268912375,
+      "Pneumonia": 0.9982407093048096
+    },
+    "confidence": 0.9982407093048096,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_422",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002238028682768345,
+      "Pneumonia": 0.9977619647979736
+    },
+    "confidence": 0.9977619647979736,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_423",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.40786537528038025,
+      "Pneumonia": 0.5921346545219421
+    },
+    "confidence": 0.5921346545219421,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_424",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006871416117064655,
+      "Pneumonia": 0.9993128776550293
+    },
+    "confidence": 0.9993128776550293,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_425",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00023039621009957045,
+      "Pneumonia": 0.9997696280479431
+    },
+    "confidence": 0.9997696280479431,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_426",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012165108928456903,
+      "Pneumonia": 0.998783528804779
+    },
+    "confidence": 0.998783528804779,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_427",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005188130890019238,
+      "Pneumonia": 0.9994812607765198
+    },
+    "confidence": 0.9994812607765198,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_428",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4528724253177643,
+      "Pneumonia": 0.5471275448799133
+    },
+    "confidence": 0.5471275448799133,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_429",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9419916272163391,
+      "Pneumonia": 0.05800830200314522
+    },
+    "confidence": 0.9419916272163391,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_430",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9862599968910217,
+      "Pneumonia": 0.013739953748881817
+    },
+    "confidence": 0.9862599968910217,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_431",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007375231361947954,
+      "Pneumonia": 0.9992625117301941
+    },
+    "confidence": 0.9992625117301941,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_432",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0021409010514616966,
+      "Pneumonia": 0.9978590607643127
+    },
+    "confidence": 0.9978590607643127,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_433",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9614030718803406,
+      "Pneumonia": 0.03859695419669151
+    },
+    "confidence": 0.9614030718803406,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_434",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.17105267941951752,
+      "Pneumonia": 0.8289473652839661
+    },
+    "confidence": 0.8289473652839661,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_435",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006817777175456285,
+      "Pneumonia": 0.9993182420730591
+    },
+    "confidence": 0.9993182420730591,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_436",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.6820768713951111,
+      "Pneumonia": 0.3179231584072113
+    },
+    "confidence": 0.6820768713951111,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_437",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.008936895057559013,
+      "Pneumonia": 0.991063117980957
+    },
+    "confidence": 0.991063117980957,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_438",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0012825173325836658,
+      "Pneumonia": 0.9987175464630127
+    },
+    "confidence": 0.9987175464630127,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_439",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007711885264143348,
+      "Pneumonia": 0.999228835105896
+    },
+    "confidence": 0.999228835105896,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_440",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011442009126767516,
+      "Pneumonia": 0.9988558292388916
+    },
+    "confidence": 0.9988558292388916,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_441",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9618492722511292,
+      "Pneumonia": 0.03815072029829025
+    },
+    "confidence": 0.9618492722511292,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_442",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004464366007596254,
+      "Pneumonia": 0.9955356121063232
+    },
+    "confidence": 0.9955356121063232,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_443",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001432959397789091,
+      "Pneumonia": 0.99985671043396
+    },
+    "confidence": 0.99985671043396,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_444",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.960331916809082,
+      "Pneumonia": 0.03966805338859558
+    },
+    "confidence": 0.960331916809082,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_445",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.8048499226570129,
+      "Pneumonia": 0.19515006244182587
+    },
+    "confidence": 0.8048499226570129,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_446",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7079616785049438,
+      "Pneumonia": 0.2920383810997009
+    },
+    "confidence": 0.7079616785049438,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_447",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.003714697901159525,
+      "Pneumonia": 0.9962853193283081
+    },
+    "confidence": 0.9962853193283081,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_448",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9497382640838623,
+      "Pneumonia": 0.0502617321908474
+    },
+    "confidence": 0.9497382640838623,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_449",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011500491527840495,
+      "Pneumonia": 0.9988499879837036
+    },
+    "confidence": 0.9988499879837036,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_450",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9924531579017639,
+      "Pneumonia": 0.007546873763203621
+    },
+    "confidence": 0.9924531579017639,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_451",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006195751950144768,
+      "Pneumonia": 0.9938042163848877
+    },
+    "confidence": 0.9938042163848877,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_452",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00024379960086662322,
+      "Pneumonia": 0.9997561573982239
+    },
+    "confidence": 0.9997561573982239,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_453",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03576532378792763,
+      "Pneumonia": 0.9642346501350403
+    },
+    "confidence": 0.9642346501350403,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_454",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0013892494607716799,
+      "Pneumonia": 0.9986107349395752
+    },
+    "confidence": 0.9986107349395752,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_455",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.013925112783908844,
+      "Pneumonia": 0.9860748648643494
+    },
+    "confidence": 0.9860748648643494,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_456",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.012554571032524109,
+      "Pneumonia": 0.9874454736709595
+    },
+    "confidence": 0.9874454736709595,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_457",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7695024013519287,
+      "Pneumonia": 0.23049761354923248
+    },
+    "confidence": 0.7695024013519287,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_458",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008820014772936702,
+      "Pneumonia": 0.9991180300712585
+    },
+    "confidence": 0.9991180300712585,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_459",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002591569791547954,
+      "Pneumonia": 0.9997407793998718
+    },
+    "confidence": 0.9997407793998718,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_460",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.971656858921051,
+      "Pneumonia": 0.028343113139271736
+    },
+    "confidence": 0.971656858921051,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_461",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0047213174402713776,
+      "Pneumonia": 0.9952787160873413
+    },
+    "confidence": 0.9952787160873413,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_462",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006750279571861029,
+      "Pneumonia": 0.9993250370025635
+    },
+    "confidence": 0.9993250370025635,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_463",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6761268377304077,
+      "Pneumonia": 0.3238731324672699
+    },
+    "confidence": 0.6761268377304077,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_464",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.007350814063102007,
+      "Pneumonia": 0.9926491379737854
+    },
+    "confidence": 0.9926491379737854,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_465",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006201242562383413,
+      "Pneumonia": 0.9937987923622131
+    },
+    "confidence": 0.9937987923622131,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_466",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03288716450333595,
+      "Pneumonia": 0.9671128392219543
+    },
+    "confidence": 0.9671128392219543,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_467",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.007400155533105135,
+      "Pneumonia": 0.9925998449325562
+    },
+    "confidence": 0.9925998449325562,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_468",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.012981599196791649,
+      "Pneumonia": 0.9870184063911438
+    },
+    "confidence": 0.9870184063911438,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_469",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4892188310623169,
+      "Pneumonia": 0.5107811689376831
+    },
+    "confidence": 0.5107811689376831,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_470",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.14109225571155548,
+      "Pneumonia": 0.8589078187942505
+    },
+    "confidence": 0.8589078187942505,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_471",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6709270477294922,
+      "Pneumonia": 0.3290730118751526
+    },
+    "confidence": 0.6709270477294922,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_472",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9634060859680176,
+      "Pneumonia": 0.03659393638372421
+    },
+    "confidence": 0.9634060859680176,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_473",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6696584224700928,
+      "Pneumonia": 0.3303416073322296
+    },
+    "confidence": 0.6696584224700928,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_474",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004623739223461598,
+      "Pneumonia": 0.9995377063751221
+    },
+    "confidence": 0.9995377063751221,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_475",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9775505065917969,
+      "Pneumonia": 0.022449497133493423
+    },
+    "confidence": 0.9775505065917969,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_476",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.004618356004357338,
+      "Pneumonia": 0.9953816533088684
+    },
+    "confidence": 0.9953816533088684,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_477",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011700118193402886,
+      "Pneumonia": 0.9988300204277039
+    },
+    "confidence": 0.9988300204277039,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_478",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0009236398618668318,
+      "Pneumonia": 0.9990763664245605
+    },
+    "confidence": 0.9990763664245605,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_479",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003771701885852963,
+      "Pneumonia": 0.9996228218078613
+    },
+    "confidence": 0.9996228218078613,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_480",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0017536033410578966,
+      "Pneumonia": 0.998246431350708
+    },
+    "confidence": 0.998246431350708,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_481",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6214468479156494,
+      "Pneumonia": 0.3785531222820282
+    },
+    "confidence": 0.6214468479156494,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_482",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9777491688728333,
+      "Pneumonia": 0.022250760346651077
+    },
+    "confidence": 0.9777491688728333,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_483",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9934285283088684,
+      "Pneumonia": 0.006571498699486256
+    },
+    "confidence": 0.9934285283088684,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_484",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9533983469009399,
+      "Pneumonia": 0.046601682901382446
+    },
+    "confidence": 0.9533983469009399,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_485",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.24558255076408386,
+      "Pneumonia": 0.7544174194335938
+    },
+    "confidence": 0.7544174194335938,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_486",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000522970745805651,
+      "Pneumonia": 0.9994770884513855
+    },
+    "confidence": 0.9994770884513855,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_487",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8988931775093079,
+      "Pneumonia": 0.10110677778720856
+    },
+    "confidence": 0.8988931775093079,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_488",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.026225633919239044,
+      "Pneumonia": 0.9737744331359863
+    },
+    "confidence": 0.9737744331359863,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_489",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002219818125013262,
+      "Pneumonia": 0.9997779726982117
+    },
+    "confidence": 0.9997779726982117,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_490",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08597405254840851,
+      "Pneumonia": 0.9140259027481079
+    },
+    "confidence": 0.9140259027481079,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_491",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.049804989248514175,
+      "Pneumonia": 0.9501950740814209
+    },
+    "confidence": 0.9501950740814209,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_492",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.016510622575879097,
+      "Pneumonia": 0.9834893941879272
+    },
+    "confidence": 0.9834893941879272,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_493",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.05846557393670082,
+      "Pneumonia": 0.9415343403816223
+    },
+    "confidence": 0.9415343403816223,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_494",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00032603889121674,
+      "Pneumonia": 0.9996739625930786
+    },
+    "confidence": 0.9996739625930786,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_495",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.7791620492935181,
+      "Pneumonia": 0.22083799540996552
+    },
+    "confidence": 0.7791620492935181,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_496",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9942242503166199,
+      "Pneumonia": 0.005775784607976675
+    },
+    "confidence": 0.9942242503166199,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_497",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01538009475916624,
+      "Pneumonia": 0.9846199154853821
+    },
+    "confidence": 0.9846199154853821,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_498",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00611269474029541,
+      "Pneumonia": 0.9938873648643494
+    },
+    "confidence": 0.9938873648643494,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_499",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0009943537879735231,
+      "Pneumonia": 0.9990056157112122
+    },
+    "confidence": 0.9990056157112122,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_500",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0005940890405327082,
+      "Pneumonia": 0.9994058609008789
+    },
+    "confidence": 0.9994058609008789,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_501",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6105305552482605,
+      "Pneumonia": 0.3894694149494171
+    },
+    "confidence": 0.6105305552482605,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_502",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9175592064857483,
+      "Pneumonia": 0.08244077116250992
+    },
+    "confidence": 0.9175592064857483,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_503",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0018397961976006627,
+      "Pneumonia": 0.998160183429718
+    },
+    "confidence": 0.998160183429718,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_504",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00027372740441933274,
+      "Pneumonia": 0.9997262358665466
+    },
+    "confidence": 0.9997262358665466,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_505",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.18779021501541138,
+      "Pneumonia": 0.8122097849845886
+    },
+    "confidence": 0.8122097849845886,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_506",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.07483406364917755,
+      "Pneumonia": 0.9251658916473389
+    },
+    "confidence": 0.9251658916473389,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_507",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002862584951799363,
+      "Pneumonia": 0.9997137188911438
+    },
+    "confidence": 0.9997137188911438,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_508",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8768543601036072,
+      "Pneumonia": 0.12314558774232864
+    },
+    "confidence": 0.8768543601036072,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_509",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00024061395379249007,
+      "Pneumonia": 0.9997593760490417
+    },
+    "confidence": 0.9997593760490417,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_510",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.00012849553604610264,
+      "Pneumonia": 0.9998714923858643
+    },
+    "confidence": 0.9998714923858643,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_511",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9891526699066162,
+      "Pneumonia": 0.010847358964383602
+    },
+    "confidence": 0.9891526699066162,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_512",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.011552158743143082,
+      "Pneumonia": 0.9884478449821472
+    },
+    "confidence": 0.9884478449821472,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_513",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0022138876374810934,
+      "Pneumonia": 0.9977860450744629
+    },
+    "confidence": 0.9977860450744629,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_514",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.1841689795255661,
+      "Pneumonia": 0.8158310055732727
+    },
+    "confidence": 0.8158310055732727,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_515",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9922956228256226,
+      "Pneumonia": 0.00770444655790925
+    },
+    "confidence": 0.9922956228256226,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_516",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0003614866582211107,
+      "Pneumonia": 0.999638557434082
+    },
+    "confidence": 0.999638557434082,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_517",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.2551877498626709,
+      "Pneumonia": 0.7448122501373291
+    },
+    "confidence": 0.7448122501373291,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_518",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007612297195009887,
+      "Pneumonia": 0.9992387294769287
+    },
+    "confidence": 0.9992387294769287,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_519",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.891916811466217,
+      "Pneumonia": 0.10808318108320236
+    },
+    "confidence": 0.891916811466217,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_520",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0038611290510743856,
+      "Pneumonia": 0.996138870716095
+    },
+    "confidence": 0.996138870716095,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_521",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9653359055519104,
+      "Pneumonia": 0.03466402739286423
+    },
+    "confidence": 0.9653359055519104,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_522",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.22067704796791077,
+      "Pneumonia": 0.7793229222297668
+    },
+    "confidence": 0.7793229222297668,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_523",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8368651866912842,
+      "Pneumonia": 0.16313481330871582
+    },
+    "confidence": 0.8368651866912842,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_524",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00010998568905051798,
+      "Pneumonia": 0.9998899698257446
+    },
+    "confidence": 0.9998899698257446,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_525",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00012505838822107762,
+      "Pneumonia": 0.9998749494552612
+    },
+    "confidence": 0.9998749494552612,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_526",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.2417924702167511,
+      "Pneumonia": 0.7582075595855713
+    },
+    "confidence": 0.7582075595855713,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_527",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8663069009780884,
+      "Pneumonia": 0.1336931586265564
+    },
+    "confidence": 0.8663069009780884,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_528",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00045375197078101337,
+      "Pneumonia": 0.999546229839325
+    },
+    "confidence": 0.999546229839325,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_529",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.1042858213186264,
+      "Pneumonia": 0.8957142233848572
+    },
+    "confidence": 0.8957142233848572,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_530",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007144588744267821,
+      "Pneumonia": 0.9992855191230774
+    },
+    "confidence": 0.9992855191230774,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_531",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7279815077781677,
+      "Pneumonia": 0.2720184624195099
+    },
+    "confidence": 0.7279815077781677,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_532",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.005239375401288271,
+      "Pneumonia": 0.9947605729103088
+    },
+    "confidence": 0.9947605729103088,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_533",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.6988841891288757,
+      "Pneumonia": 0.30111581087112427
+    },
+    "confidence": 0.6988841891288757,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_534",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010802930919453502,
+      "Pneumonia": 0.9989197254180908
+    },
+    "confidence": 0.9989197254180908,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_535",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.3351808190345764,
+      "Pneumonia": 0.6648191809654236
+    },
+    "confidence": 0.6648191809654236,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_536",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002637658908497542,
+      "Pneumonia": 0.9997362494468689
+    },
+    "confidence": 0.9997362494468689,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_537",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002140082186087966,
+      "Pneumonia": 0.9978598952293396
+    },
+    "confidence": 0.9978598952293396,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_538",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011442009126767516,
+      "Pneumonia": 0.9988558292388916
+    },
+    "confidence": 0.9988558292388916,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_539",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0032808706164360046,
+      "Pneumonia": 0.9967190623283386
+    },
+    "confidence": 0.9967190623283386,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_540",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9836974740028381,
+      "Pneumonia": 0.016302578151226044
+    },
+    "confidence": 0.9836974740028381,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_541",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7200304269790649,
+      "Pneumonia": 0.2799695134162903
+    },
+    "confidence": 0.7200304269790649,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_542",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8937167525291443,
+      "Pneumonia": 0.1062832623720169
+    },
+    "confidence": 0.8937167525291443,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_543",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0002843365364242345,
+      "Pneumonia": 0.9997156262397766
+    },
+    "confidence": 0.9997156262397766,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_544",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0010273277293890715,
+      "Pneumonia": 0.9989726543426514
+    },
+    "confidence": 0.9989726543426514,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_545",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.02483927085995674,
+      "Pneumonia": 0.9751607775688171
+    },
+    "confidence": 0.9751607775688171,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_546",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006250436999835074,
+      "Pneumonia": 0.9993749260902405
+    },
+    "confidence": 0.9993749260902405,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_547",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.10450429469347,
+      "Pneumonia": 0.8954957127571106
+    },
+    "confidence": 0.8954957127571106,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_548",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6656619906425476,
+      "Pneumonia": 0.33433797955513
+    },
+    "confidence": 0.6656619906425476,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_549",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0009638090268708766,
+      "Pneumonia": 0.9990361928939819
+    },
+    "confidence": 0.9990361928939819,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_550",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000794265593867749,
+      "Pneumonia": 0.9992057681083679
+    },
+    "confidence": 0.9992057681083679,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_551",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002654359443113208,
+      "Pneumonia": 0.9973456263542175
+    },
+    "confidence": 0.9973456263542175,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_552",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.5726112127304077,
+      "Pneumonia": 0.4273888170719147
+    },
+    "confidence": 0.5726112127304077,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_553",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.357973575592041,
+      "Pneumonia": 0.642026424407959
+    },
+    "confidence": 0.642026424407959,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_554",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002245804527774453,
+      "Pneumonia": 0.9977541565895081
+    },
+    "confidence": 0.9977541565895081,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_555",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0025813644751906395,
+      "Pneumonia": 0.9974186420440674
+    },
+    "confidence": 0.9974186420440674,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_556",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.934633731842041,
+      "Pneumonia": 0.06536628305912018
+    },
+    "confidence": 0.934633731842041,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_557",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0004624455177690834,
+      "Pneumonia": 0.9995375871658325
+    },
+    "confidence": 0.9995375871658325,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_558",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9979974627494812,
+      "Pneumonia": 0.0020024962723255157
+    },
+    "confidence": 0.9979974627494812,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_559",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00010739358549471945,
+      "Pneumonia": 0.9998925924301147
+    },
+    "confidence": 0.9998925924301147,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_560",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9627614617347717,
+      "Pneumonia": 0.03723854944109917
+    },
+    "confidence": 0.9627614617347717,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_561",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.02659677341580391,
+      "Pneumonia": 0.9734032154083252
+    },
+    "confidence": 0.9734032154083252,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_562",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0008524577715434134,
+      "Pneumonia": 0.9991475343704224
+    },
+    "confidence": 0.9991475343704224,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_563",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004069482441991568,
+      "Pneumonia": 0.9959304928779602
+    },
+    "confidence": 0.9959304928779602,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_564",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004431526176631451,
+      "Pneumonia": 0.9955684542655945
+    },
+    "confidence": 0.9955684542655945,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_565",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.36025211215019226,
+      "Pneumonia": 0.6397478580474854
+    },
+    "confidence": 0.6397478580474854,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_566",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01403218973428011,
+      "Pneumonia": 0.9859678149223328
+    },
+    "confidence": 0.9859678149223328,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_567",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.010488378815352917,
+      "Pneumonia": 0.9895116686820984
+    },
+    "confidence": 0.9895116686820984,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_568",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0011900317622348666,
+      "Pneumonia": 0.9988099336624146
+    },
+    "confidence": 0.9988099336624146,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_569",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00023761579359415919,
+      "Pneumonia": 0.9997623562812805
+    },
+    "confidence": 0.9997623562812805,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_570",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.05681978911161423,
+      "Pneumonia": 0.9431802034378052
+    },
+    "confidence": 0.9431802034378052,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_571",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.7595973610877991,
+      "Pneumonia": 0.24040263891220093
+    },
+    "confidence": 0.7595973610877991,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_572",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.2266814112663269,
+      "Pneumonia": 0.7733185887336731
+    },
+    "confidence": 0.7733185887336731,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_573",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0001996859209612012,
+      "Pneumonia": 0.9998003840446472
+    },
+    "confidence": 0.9998003840446472,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_574",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0006333852070383728,
+      "Pneumonia": 0.9993665814399719
+    },
+    "confidence": 0.9993665814399719,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_575",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9639251828193665,
+      "Pneumonia": 0.036074839532375336
+    },
+    "confidence": 0.9639251828193665,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_576",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.027136556804180145,
+      "Pneumonia": 0.9728633761405945
+    },
+    "confidence": 0.9728633761405945,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_577",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.014461688697338104,
+      "Pneumonia": 0.9855382442474365
+    },
+    "confidence": 0.9855382442474365,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_578",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.81653892993927,
+      "Pneumonia": 0.1834610551595688
+    },
+    "confidence": 0.81653892993927,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_579",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.018117845058441162,
+      "Pneumonia": 0.9818821549415588
+    },
+    "confidence": 0.9818821549415588,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_580",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004808947443962097,
+      "Pneumonia": 0.9951910972595215
+    },
+    "confidence": 0.9951910972595215,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_581",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01649615541100502,
+      "Pneumonia": 0.9835038185119629
+    },
+    "confidence": 0.9835038185119629,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_582",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03330744057893753,
+      "Pneumonia": 0.9666925668716431
+    },
+    "confidence": 0.9666925668716431,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_583",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.001287085353396833,
+      "Pneumonia": 0.9987128973007202
+    },
+    "confidence": 0.9987128973007202,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_584",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7214221954345703,
+      "Pneumonia": 0.2785778343677521
+    },
+    "confidence": 0.7214221954345703,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_585",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0019073596922680736,
+      "Pneumonia": 0.9980925917625427
+    },
+    "confidence": 0.9980925917625427,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_586",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.012517094612121582,
+      "Pneumonia": 0.9874829053878784
+    },
+    "confidence": 0.9874829053878784,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_587",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.05010922998189926,
+      "Pneumonia": 0.9498907923698425
+    },
+    "confidence": 0.9498907923698425,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_588",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.7188064455986023,
+      "Pneumonia": 0.28119349479675293
+    },
+    "confidence": 0.7188064455986023,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_589",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.14914460480213165,
+      "Pneumonia": 0.8508554100990295
+    },
+    "confidence": 0.8508554100990295,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_590",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00742822140455246,
+      "Pneumonia": 0.9925717711448669
+    },
+    "confidence": 0.9925717711448669,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_591",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00010371545795351267,
+      "Pneumonia": 0.9998962879180908
+    },
+    "confidence": 0.9998962879180908,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_592",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0025790317449718714,
+      "Pneumonia": 0.9974210262298584
+    },
+    "confidence": 0.9974210262298584,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_593",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9358013272285461,
+      "Pneumonia": 0.06419871747493744
+    },
+    "confidence": 0.9358013272285461,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_594",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00029902305686846375,
+      "Pneumonia": 0.9997010231018066
+    },
+    "confidence": 0.9997010231018066,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_595",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.1912657916545868,
+      "Pneumonia": 0.8087342381477356
+    },
+    "confidence": 0.8087342381477356,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_596",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00035186350578442216,
+      "Pneumonia": 0.9996480941772461
+    },
+    "confidence": 0.9996480941772461,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_597",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0007058628834784031,
+      "Pneumonia": 0.9992941617965698
+    },
+    "confidence": 0.9992941617965698,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_598",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.6931471228599548,
+      "Pneumonia": 0.30685287714004517
+    },
+    "confidence": 0.6931471228599548,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_599",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.03529854491353035,
+      "Pneumonia": 0.9647014737129211
+    },
+    "confidence": 0.9647014737129211,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_600",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.000601581297814846,
+      "Pneumonia": 0.9993984699249268
+    },
+    "confidence": 0.9993984699249268,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_601",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.001150644151493907,
+      "Pneumonia": 0.9988493919372559
+    },
+    "confidence": 0.9988493919372559,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_602",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9794870018959045,
+      "Pneumonia": 0.020512985065579414
+    },
+    "confidence": 0.9794870018959045,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_603",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.00011634035763563588,
+      "Pneumonia": 0.9998836517333984
+    },
+    "confidence": 0.9998836517333984,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_604",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08006224781274796,
+      "Pneumonia": 0.919937789440155
+    },
+    "confidence": 0.919937789440155,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_605",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.013090601190924644,
+      "Pneumonia": 0.9869094491004944
+    },
+    "confidence": 0.9869094491004944,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_606",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.05278805270791054,
+      "Pneumonia": 0.9472119808197021
+    },
+    "confidence": 0.9472119808197021,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_607",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.007760803215205669,
+      "Pneumonia": 0.9922391176223755
+    },
+    "confidence": 0.9922391176223755,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_608",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.9292058348655701,
+      "Pneumonia": 0.0707942470908165
+    },
+    "confidence": 0.9292058348655701,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_609",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.006914059165865183,
+      "Pneumonia": 0.9930859804153442
+    },
+    "confidence": 0.9930859804153442,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_610",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0019254504004493356,
+      "Pneumonia": 0.9980745315551758
+    },
+    "confidence": 0.9980745315551758,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_611",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.006707135122269392,
+      "Pneumonia": 0.9932929277420044
+    },
+    "confidence": 0.9932929277420044,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_612",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.002332289470359683,
+      "Pneumonia": 0.9976677298545837
+    },
+    "confidence": 0.9976677298545837,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_613",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.01648889295756817,
+      "Pneumonia": 0.9835110902786255
+    },
+    "confidence": 0.9835110902786255,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_614",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.4204673767089844,
+      "Pneumonia": 0.5795326232910156
+    },
+    "confidence": 0.5795326232910156,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_615",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.004989200737327337,
+      "Pneumonia": 0.9950108528137207
+    },
+    "confidence": 0.9950108528137207,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_616",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.0046539343893527985,
+      "Pneumonia": 0.9953460097312927
+    },
+    "confidence": 0.9953460097312927,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_617",
+    "predicted_class": "Pneumonia",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.08267724514007568,
+      "Pneumonia": 0.9173226952552795
+    },
+    "confidence": 0.9173226952552795,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_618",
+    "predicted_class": "Normal",
+    "true_class": "Pneumonia",
+    "class_probabilities": {
+      "Normal": 0.6354885101318359,
+      "Pneumonia": 0.3645114600658417
+    },
+    "confidence": 0.6354885101318359,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_619",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.9139301180839539,
+      "Pneumonia": 0.08606988191604614
+    },
+    "confidence": 0.9139301180839539,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_620",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.05237444490194321,
+      "Pneumonia": 0.9476255774497986
+    },
+    "confidence": 0.9476255774497986,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_621",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.8926388025283813,
+      "Pneumonia": 0.10736120492219925
+    },
+    "confidence": 0.8926388025283813,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_622",
+    "predicted_class": "Pneumonia",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.028681941330432892,
+      "Pneumonia": 0.9713180661201477
+    },
+    "confidence": 0.9713180661201477,
+    "model_version": "mobilenetv2-epoch-3"
+  },
+  {
+    "image_id": "test_623",
+    "predicted_class": "Normal",
+    "true_class": "Normal",
+    "class_probabilities": {
+      "Normal": 0.6593794822692871,
+      "Pneumonia": 0.3406205177307129
+    },
+    "confidence": 0.6593794822692871,
+    "model_version": "mobilenetv2-epoch-3"
+  }
+]

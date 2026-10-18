@@ -1,0 +1,151 @@
+{
+  "model": "mobilenetv2",
+  "seed": 42,
+  "epochs_requested": 3,
+  "training_class_counts": [
+    1214,
+    3494
+  ],
+  "best_validation_macro_f1": 0.9252994872502357,
+  "checkpoint": "C:\\Users\\DiyaUser79\\OneDrive\\Desktop\\hack\\SentinelMed\\artifacts\\checkpoints\\mobilenetv2_best.pth",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3589216558026908,
+      "validation": {
+        "loss": 0.20680857398582778,
+        "accuracy": 0.9255725190839694,
+        "macro_f1": 0.9060219355728771,
+        "confusion_matrix": [
+          [
+            123,
+            12
+          ],
+          [
+            27,
+            362
+          ]
+        ],
+        "classification_report": {
+          "Normal": {
+            "precision": 0.82,
+            "recall": 0.9111111111111111,
+            "f1-score": 0.8631578947368421,
+            "support": 135.0
+          },
+          "Pneumonia": {
+            "precision": 0.9679144385026738,
+            "recall": 0.9305912596401028,
+            "f1-score": 0.9488859764089121,
+            "support": 389.0
+          },
+          "accuracy": 0.9255725190839694,
+          "macro avg": {
+            "precision": 0.8939572192513369,
+            "recall": 0.920851185375607,
+            "f1-score": 0.9060219355728771,
+            "support": 524.0
+          },
+          "weighted avg": {
+            "precision": 0.9298067110258399,
+            "recall": 0.9255725190839694,
+            "f1-score": 0.9267995431537034,
+            "support": 524.0
+          }
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.20292186901644316,
+      "validation": {
+        "loss": 0.19402462107534627,
+        "accuracy": 0.9103053435114504,
+        "macro_f1": 0.8900295153850619,
+        "confusion_matrix": [
+          [
+            126,
+            9
+          ],
+          [
+            38,
+            351
+          ]
+        ],
+        "classification_report": {
+          "Normal": {
+            "precision": 0.7682926829268293,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.842809364548495,
+            "support": 135.0
+          },
+          "Pneumonia": {
+            "precision": 0.975,
+            "recall": 0.9023136246786633,
+            "f1-score": 0.9372496662216289,
+            "support": 389.0
+          },
+          "accuracy": 0.9103053435114504,
+          "macro avg": {
+            "precision": 0.8716463414634146,
+            "recall": 0.9178234790059983,
+            "f1-score": 0.8900295153850619,
+            "support": 524.0
+          },
+          "weighted avg": {
+            "precision": 0.9217452522807671,
+            "recall": 0.9103053435114504,
+            "f1-score": 0.9129186724699627,
+            "support": 524.0
+          }
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.14535829962920413,
+      "validation": {
+        "loss": 0.19182979651079832,
+        "accuracy": 0.9408396946564885,
+        "macro_f1": 0.9252994872502357,
+        "confusion_matrix": [
+          [
+            127,
+            8
+          ],
+          [
+            23,
+            366
+          ]
+        ],
+        "classification_report": {
+          "Normal": {
+            "precision": 0.8466666666666667,
+            "recall": 0.9407407407407408,
+            "f1-score": 0.8912280701754386,
+            "support": 135.0
+          },
+          "Pneumonia": {
+            "precision": 0.9786096256684492,
+            "recall": 0.9408740359897172,
+            "f1-score": 0.9593709043250328,
+            "support": 389.0
+          },
+          "accuracy": 0.9408396946564885,
+          "macro avg": {
+            "precision": 0.9126381461675579,
+            "recall": 0.940807388365229,
+            "f1-score": 0.9252994872502357,
+            "support": 524.0
+          },
+          "weighted avg": {
+            "precision": 0.9446166877576847,
+            "recall": 0.9408396946564885,
+            "f1-score": 0.9418150214811488,
+            "support": 524.0
+          }
+        }
+      }
+    }
+  ]
+}

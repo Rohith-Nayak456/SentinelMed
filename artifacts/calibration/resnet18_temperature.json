@@ -1,0 +1,14 @@
+{
+  "model_name": "resnet18",
+  "model_version": "resnet18-epoch-2",
+  "temperature": 0.8038740158081055,
+  "fit_images": 262,
+  "assessment_images": 262,
+  "assessment_nll_before": 0.14908863604068756,
+  "assessment_nll_after": 0.15108783543109894,
+  "assessment_ece_before": 0.020717617124319077,
+  "assessment_ece_after": 0.0327424593269825,
+  "ece_bins": 15,
+  "validation_only": true,
+  "test_split_used": false
+}
