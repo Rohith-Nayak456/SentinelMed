@@ -1,6 +1,6 @@
 """
 Upload Panel Component
-Handles image upload, format/size validation, decoding, and preview.
+Handles image upload, format/size validation, decoding, preview, and analysis trigger.
 """
 
 from typing import Optional, Tuple
@@ -32,15 +32,11 @@ def validate_and_load_image(uploaded_file) -> Tuple[bool, Optional[str], Optiona
 
     # Decode image
     try:
-        # Wrap bytes in BytesIO
         stream = io.BytesIO(file_bytes)
         img = Image.open(stream)
-        # Verify decoding by accessing properties and converting to RGB for preview
         img.verify()
-        # Re-open stream for actual rendering/inference since verify consumes stream
         stream.seek(0)
         loaded_img = Image.open(stream)
-        # Ensure mode is standard RGB or L
         if loaded_img.mode not in ("RGB", "L", "RGBA"):
             loaded_img = loaded_img.convert("RGB")
         return True, None, loaded_img
@@ -52,16 +48,16 @@ def validate_and_load_image(uploaded_file) -> Tuple[bool, Optional[str], Optiona
         )
 
 
-def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], str, bool]:
+def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], str, str, str, bool]:
     """
-    Renders the image upload interface, validation feedback, and analysis action.
+    Renders image upload interface, validation feedback, modality selection, and analysis action.
     Returns:
-        (loaded_image, scan_id, analyse_clicked)
+        (loaded_image, scan_id, modality, priority, analyse_clicked)
     """
     st.markdown('<div class="sm-card">', unsafe_allow_html=True)
-    st.markdown("### 1. Upload Scan")
+    st.markdown("### 1. Upload Scan & Clinical Metadata")
     st.markdown(
-        '<p style="color: #65747B; font-size: 0.9rem; margin-top: -6px;">'
+        '<p style="color: #64748B; font-size: 0.9rem; margin-top: -6px;">'
         'Upload a medical image (PNG, JPG, JPEG) to inspect quality and reliability metrics.'
         '</p>',
         unsafe_allow_html=True,
@@ -80,18 +76,34 @@ def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], st
             label_visibility="collapsed",
         )
 
-        scan_id_input = st.text_input(
-            "Scan ID / Identifier (optional)",
-            placeholder="e.g. SCAN-2026-0042",
-            help="Optional identifier to track this scan through the reliability pipeline.",
+        sub_col1, sub_col2 = st.columns(2)
+        with sub_col1:
+            scan_id_input = st.text_input(
+                "Scan Identifier (optional)",
+                placeholder="e.g. SCAN-2026-0042",
+                help="Optional identifier to track this scan through the reliability pipeline.",
+            )
+            scan_id = scan_id_input.strip()
+
+        with sub_col2:
+            modality = st.selectbox(
+                "Imaging Modality",
+                ["Chest Radiograph (PA)", "Chest Radiograph (AP)", "CT Head Non-Contrast", "MRI Brain T1-w", "Diagnostic Ultrasound"],
+                index=0,
+            )
+
+        priority = st.selectbox(
+            "Initial Clinical Triage Priority",
+            ["Medium", "High", "Critical", "Low"],
+            index=0,
+            help="Clinician-assigned triage priority (independent of automated AI reliability verdict).",
         )
-        scan_id = scan_id_input.strip()
 
         # In demo mode, offer a button to load synthetic sample if user has no image
         use_sample = False
         if is_demo and uploaded_file is None:
             st.markdown(
-                '<p style="color: #65747B; font-size: 0.82rem; margin-top: 8px;">'
+                '<p style="color: #64748B; font-size: 0.82rem; margin-top: 8px;">'
                 'No image file available? Test with a neutral synthetic placeholder:'
                 '</p>',
                 unsafe_allow_html=True,
@@ -113,7 +125,7 @@ def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], st
                 st.image(
                     uploaded_image,
                     caption=f"Preview: {uploaded_file.name} ({uploaded_image.width}x{uploaded_image.height}, {uploaded_image.mode})",
-                    use_container_width=True,
+                    width="stretch",
                 )
                 if not scan_id:
                     scan_id = uploaded_file.name.split(".")[0]
@@ -126,13 +138,13 @@ def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], st
             st.image(
                 uploaded_image,
                 caption=f"Synthetic Demo Scan ({sample_img.width}x{sample_img.height}, {sample_img.mode})",
-                use_container_width=True,
+                width="stretch",
             )
             st.caption("Synthetic test placeholder - non-clinical scan.")
         else:
             st.markdown(
-                '<div style="border: 2px dashed #E3E6E2; border-radius: 6px; padding: 40px 16px; '
-                'text-align: center; color: #65747B; background-color: #EFEEE8;">'
+                '<div style="border: 2px dashed #E2E8F0; border-radius: 8px; padding: 48px 16px; '
+                'text-align: center; color: #64748B; background-color: #F8FAFC;">'
                 '<p style="margin: 0; font-size: 0.95rem; font-weight: 500;">No scan selected</p>'
                 '<p style="margin: 4px 0 0 0; font-size: 0.8rem;">Upload an image or load a demo sample to begin</p>'
                 '</div>',
@@ -149,7 +161,7 @@ def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], st
             "Analyse scan",
             type="primary",
             disabled=(uploaded_image is None),
-            use_container_width=True,
+            width="stretch",
             key="btn_analyse_scan",
         )
 
@@ -157,8 +169,8 @@ def render_upload_panel(is_demo: bool = True) -> Tuple[Optional[Image.Image], st
         if uploaded_image is None:
             st.caption("Upload or select an image above to enable analysis.")
         else:
-            st.caption(f"Ready for reliability inspection. Scan ID: `{scan_id or 'Auto-generated'}`")
+            st.caption(f"Ready for reliability inspection. Scan ID: `{scan_id or 'Auto-generated'}` | Modality: `{modality}`")
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-    return uploaded_image, scan_id, analyse_clicked
+    return uploaded_image, scan_id, modality, priority, analyse_clicked

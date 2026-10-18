@@ -10,11 +10,13 @@ from typing import Any, Dict, List, Optional, Tuple
 
 ALLOWED_VERDICTS = {"accepted", "auto_fixed", "escalated"}
 PROPOSED_CAUSES = {"quality", "ood", "ambiguous", "disagree"}
+ALLOWED_PRIORITIES = {"Critical", "High", "Medium", "Low"}
+ALLOWED_DOCTOR_STATUSES = {"pending_review", "approved", "retake_ordered", "escalation_confirmed"}
 
 
 @dataclass
 class SentinelResult:
-    """Normalized, validated result data for UI rendering."""
+    """Normalized, validated result data for UI rendering and review workflows."""
     verdict: str
     scan_id: Optional[str] = None
     pred: Any = None
@@ -28,6 +30,10 @@ class SentinelResult:
     explanation: Optional[str] = None
     enhanced_image: Any = None
     is_demo: bool = False
+    priority: Optional[str] = None
+    doctor_status: Optional[str] = "pending_review"
+    doctor_notes: Optional[str] = None
+    timestamp: Optional[str] = None
     raw_extra: Dict[str, Any] = field(default_factory=dict)
 
     @property
@@ -166,11 +172,44 @@ def validate_result(data: Any) -> Tuple[bool, List[str], Optional[SentinelResult
     # Demo indicator
     is_demo = bool(data.get("is_demo", False))
 
+    # Priority validation (optional)
+    priority = data.get("priority")
+    if priority is not None:
+        priority_str = str(priority).capitalize()
+        if priority_str in ALLOWED_PRIORITIES:
+            priority = priority_str
+        else:
+            errors.append(
+                f"Invalid priority '{priority}'. Allowed values: {', '.join(sorted(ALLOWED_PRIORITIES))}."
+            )
+            priority = None
+
+    # Doctor status validation (optional)
+    doctor_status = data.get("doctor_status", "pending_review")
+    if doctor_status is not None:
+        doc_stat_str = str(doctor_status).lower()
+        if doc_stat_str in ALLOWED_DOCTOR_STATUSES:
+            doctor_status = doc_stat_str
+        else:
+            errors.append(
+                f"Invalid doctor_status '{doctor_status}'. Allowed values: {', '.join(sorted(ALLOWED_DOCTOR_STATUSES))}."
+            )
+            doctor_status = "pending_review"
+
+    doctor_notes = data.get("doctor_notes")
+    if doctor_notes is not None:
+        doctor_notes = str(doctor_notes)
+
+    timestamp = data.get("timestamp")
+    if timestamp is not None:
+        timestamp = str(timestamp)
+
     # Known keys
     known_keys = {
         "verdict", "pred", "confidence", "quality", "uncertainty",
         "gate", "cause", "recoverability", "latency_ms", "explanation",
-        "enhanced_image", "scan_id", "is_demo",
+        "enhanced_image", "scan_id", "is_demo", "priority", "doctor_status",
+        "doctor_notes", "timestamp",
     }
     raw_extra = {k: v for k, v in data.items() if k not in known_keys}
 
@@ -191,6 +230,10 @@ def validate_result(data: Any) -> Tuple[bool, List[str], Optional[SentinelResult
         explanation=explanation,
         enhanced_image=enhanced_image,
         is_demo=is_demo,
+        priority=priority,
+        doctor_status=doctor_status,
+        doctor_notes=doctor_notes,
+        timestamp=timestamp,
         raw_extra=raw_extra,
     )
     return True, [], result

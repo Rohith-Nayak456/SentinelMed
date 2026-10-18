@@ -1,52 +1,65 @@
 """
-Header and Styling Component
-Injects the SentinelMed design tokens and renders persistent disclaimers and page headers.
+Header, Styling, and Navigation Components
+Injects the modern SentinelMed medical software design system.
+Palette: #F7F8FA (bg), #FFFFFF (surface), #172B3A (text), #64748B (muted),
+#147D78 (teal), #E2E8F0 (border), #238568 (accepted), #C88725 (warning), #C94C43 (critical).
 """
+
 from typing import Optional
 import streamlit as st
 
 
 def inject_custom_styles():
-    """Injects minimalist off-white, navy, and teal CSS stylesheet."""
+    """Injects modern, responsive healthcare dashboard CSS tokens."""
     css = """
     <style>
-    /* Global Typography & Palette */
+    /* CSS Design Tokens */
     :root {
-        --sm-bg: #F7F6F2;
-        --sm-panel: #FFFFFF;
-        --sm-text-primary: #18313B;
-        --sm-text-secondary: #65747B;
+        --sm-bg: #F7F8FA;
+        --sm-surface: #FFFFFF;
+        --sm-surface-subtle: #F1F5F9;
+        --sm-text-primary: #172B3A;
+        --sm-text-secondary: #64748B;
         --sm-accent-teal: #147D78;
         --sm-accent-hover: #0F625F;
-        --sm-border: #E3E6E2;
-        --sm-surface-subtle: #EFEEE8;
+        --sm-border: #E2E8F0;
         --sm-status-accepted: #238568;
         --sm-status-autofix: #C88725;
         --sm-status-escalated: #C94C43;
+        --sm-priority-critical: #C94C43;
+        --sm-priority-high: #E06A3B;
+        --sm-priority-medium: #C88725;
+        --sm-priority-low: #64748B;
     }
 
-    /* Main background */
+    /* Base Canvas */
     .stApp {
         background-color: var(--sm-bg);
         color: var(--sm-text-primary);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
     }
 
-    /* Streamlit headers */
+    /* Headings */
     h1, h2, h3, h4, h5, h6 {
         color: var(--sm-text-primary) !important;
         font-weight: 600;
-        letter-spacing: -0.01em;
+        letter-spacing: -0.015em;
     }
 
-    /* Card styling */
+    /* Clean Elevated Cards */
     .sm-card {
-        background-color: var(--sm-panel);
+        background-color: var(--sm-surface);
         border: 1px solid var(--sm-border);
-        border-radius: 6px;
-        padding: 20px 24px;
-        margin-bottom: 16px;
-        box-shadow: 0 1px 2px rgba(24, 49, 59, 0.04);
+        border-radius: 8px;
+        padding: 22px 24px;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 3px rgba(23, 43, 58, 0.05);
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .sm-card:hover {
+        border-color: #CBD5E1;
+        box-shadow: 0 3px 6px rgba(23, 43, 58, 0.07);
     }
 
     .sm-card-subtle {
@@ -57,12 +70,48 @@ def inject_custom_styles():
         margin-bottom: 14px;
     }
 
+    /* Metric Stat Cards */
+    .sm-stat-card {
+        background-color: var(--sm-surface);
+        border: 1px solid var(--sm-border);
+        border-radius: 8px;
+        padding: 18px 20px;
+        box-shadow: 0 1px 3px rgba(23, 43, 58, 0.04);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        min-height: 110px;
+    }
+
+    .sm-stat-label {
+        font-size: 0.80rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--sm-text-secondary);
+        margin-bottom: 4px;
+    }
+
+    .sm-stat-value {
+        font-size: 1.85rem;
+        font-weight: 700;
+        color: var(--sm-text-primary);
+        line-height: 1.2;
+    }
+
+    .sm-stat-subtext {
+        font-size: 0.78rem;
+        color: var(--sm-text-secondary);
+        margin-top: 6px;
+    }
+
     /* Status Badges */
     .sm-badge {
         display: inline-block;
-        padding: 4px 10px;
+        padding: 3px 9px;
         border-radius: 4px;
-        font-size: 0.82rem;
+        font-size: 0.78rem;
         font-weight: 600;
         letter-spacing: 0.02em;
         text-transform: uppercase;
@@ -92,9 +141,38 @@ def inject_custom_styles():
         border: 1px solid var(--sm-border);
     }
 
+    /* Priority Badges */
+    .sm-priority-critical {
+        background-color: #FEF2F2;
+        color: #991B1B;
+        border: 1px solid #FCA5A5;
+        font-weight: 700;
+    }
+
+    .sm-priority-high {
+        background-color: #FFF7ED;
+        color: #C2410C;
+        border: 1px solid #FDBA74;
+        font-weight: 600;
+    }
+
+    .sm-priority-medium {
+        background-color: #FFFBEB;
+        color: #B45309;
+        border: 1px solid #FCD34D;
+        font-weight: 600;
+    }
+
+    .sm-priority-low {
+        background-color: #F8FAFC;
+        color: #475569;
+        border: 1px solid #CBD5E1;
+        font-weight: 500;
+    }
+
     /* Verdict Hero Banner */
     .sm-verdict-banner {
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 20px 24px;
         margin-bottom: 20px;
         display: flex;
@@ -103,84 +181,91 @@ def inject_custom_styles():
     }
 
     .sm-verdict-banner-accepted {
-        background-color: #F1F8F5;
-        border: 1px solid #B7DECD;
+        background-color: #F0FDF4;
+        border: 1px solid #BBF7D0;
         border-left: 5px solid var(--sm-status-accepted);
     }
 
     .sm-verdict-banner-autofix {
-        background-color: #FDF9F0;
-        border: 1px solid #F3DFBA;
+        background-color: #FFFBEB;
+        border: 1px solid #FDE68A;
         border-left: 5px solid var(--sm-status-autofix);
     }
 
     .sm-verdict-banner-escalated {
-        background-color: #FDF4F3;
-        border: 1px solid #F6C8C5;
+        background-color: #FEF2F2;
+        border: 1px solid #FECACA;
         border-left: 5px solid var(--sm-status-escalated);
     }
 
-    /* Demo Notice Banner */
+    /* Warning & Prototype Disclaimer Banners */
+    .sm-disclaimer-banner {
+        background-color: #F1F5F9;
+        border: 1px solid var(--sm-border);
+        color: var(--sm-text-secondary);
+        padding: 9px 16px;
+        border-radius: 6px;
+        font-size: 0.80rem;
+        margin-bottom: 16px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
     .sm-demo-banner {
-        background-color: #FFF9ED;
-        border: 1px solid #F5D6A0;
+        background-color: #FFFBEB;
+        border: 1px solid #FDE68A;
         border-left: 4px solid var(--sm-status-autofix);
-        color: #7A4E0B;
-        padding: 10px 16px;
-        border-radius: 4px;
+        color: #92400E;
+        padding: 10px 18px;
+        border-radius: 6px;
         font-size: 0.88rem;
         font-weight: 500;
-        margin-bottom: 16px;
+        margin-bottom: 18px;
         display: flex;
         align-items: center;
         gap: 8px;
     }
 
-    /* Disclaimer Banner */
-    .sm-disclaimer-banner {
-        background-color: var(--sm-surface-subtle);
-        border: 1px solid var(--sm-border);
-        color: var(--sm-text-secondary);
-        padding: 8px 14px;
-        border-radius: 4px;
-        font-size: 0.80rem;
-        margin-bottom: 18px;
-        text-align: center;
-    }
-
-    /* Primary Buttons */
+    /* Action Buttons */
     .stButton > button {
         background-color: var(--sm-accent-teal) !important;
         color: #FFFFFF !important;
         border: 1px solid var(--sm-accent-teal) !important;
-        border-radius: 4px !important;
+        border-radius: 6px !important;
         font-weight: 500 !important;
-        transition: background-color 0.15s ease-in-out;
+        padding: 8px 16px !important;
+        transition: all 0.15s ease-in-out !important;
     }
 
     .stButton > button:hover {
         background-color: var(--sm-accent-hover) !important;
         border-color: var(--sm-accent-hover) !important;
+        box-shadow: 0 2px 4px rgba(20, 125, 120, 0.25) !important;
     }
 
-    /* Metrics display */
-    .sm-metric-label {
-        font-size: 0.78rem;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-        color: var(--sm-text-secondary);
-        margin-bottom: 2px;
+    .stButton > button:focus {
+        outline: 2px solid var(--sm-accent-teal) !important;
+        outline-offset: 2px !important;
     }
 
-    .sm-metric-value {
-        font-size: 1.45rem;
-        font-weight: 600;
-        color: var(--sm-text-primary);
+    /* Custom Queue Row */
+    .sm-queue-row {
+        background-color: var(--sm-surface);
+        border: 1px solid var(--sm-border);
+        border-radius: 6px;
+        padding: 14px 18px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: border-color 0.15s ease;
     }
 
-    .sm-metric-subtext {
-        font-size: 0.78rem;
-        color: var(--sm-text-secondary);
+    .sm-queue-row:hover {
+        border-color: var(--sm-accent-teal);
     }
     </style>
     """
@@ -188,40 +273,53 @@ def inject_custom_styles():
 
 
 def render_disclaimer():
-    """Renders the persistent clinical prototype research disclaimer."""
+    """Renders persistent clinical research prototype safety disclaimer."""
     st.markdown(
         '<div class="sm-disclaimer-banner">'
-        '<strong>RESEARCH PROTOTYPE ONLY</strong> — Not for clinical diagnosis or treatment decisions. '
-        'Reliability verdicts evaluate image pipeline confidence and do not certify medical health.'
+        '<strong>RESEARCH PROTOTYPE ONLY</strong> &nbsp;•&nbsp; '
+        'Not for clinical diagnosis or autonomous treatment decisions. '
+        'Reliability verdicts evaluate image quality and conformal bounds; clinician review is the final authority.'
         '</div>',
         unsafe_allow_html=True,
     )
 
 
 def render_demo_banner():
-    """Renders the prominent demo mode warning banner."""
+    """Renders prominent demonstration mode indicator."""
     st.markdown(
         '<div class="sm-demo-banner">'
         '<strong>DEMO DATA — NOT LIVE INFERENCE</strong> &nbsp;|&nbsp; '
-        'Displaying deterministic synthetic test data for frontend layout validation.'
+        'Displaying deterministic synthetic test data for workflow demonstration.'
         '</div>',
         unsafe_allow_html=True,
     )
 
 
-def render_header(title: str = "SentinelMed", subtitle: Optional[str] = None, is_demo: bool = True):
-    """Renders top header section with title, subtitle, and mode indicator."""
-    col1, col2 = st.columns([0.72, 0.28])
+def render_header(
+    title: str = "SentinelMed",
+    subtitle: Optional[str] = None,
+    is_demo: bool = True,
+    badge_text: Optional[str] = None,
+):
+    """Renders top header section with title, subtitle, and execution badge."""
+    col1, col2 = st.columns([0.75, 0.25])
     with col1:
         st.title(title)
         if subtitle:
             st.markdown(
-                f'<p style="color: #65747B; font-size: 1.05rem; margin-top: -12px; margin-bottom: 12px;">'
+                f'<p style="color: #64748B; font-size: 1.02rem; margin-top: -12px; margin-bottom: 14px;">'
                 f'{subtitle}</p>',
                 unsafe_allow_html=True,
             )
     with col2:
-        if is_demo:
+        if badge_text:
+            st.markdown(
+                f'<div style="text-align: right; padding-top: 14px;">'
+                f'<span class="sm-badge sm-badge-neutral">{badge_text}</span>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
+        elif is_demo:
             st.markdown(
                 '<div style="text-align: right; padding-top: 14px;">'
                 '<span class="sm-badge sm-badge-autofix">Demo Mode Active</span>'

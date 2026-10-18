@@ -1,0 +1,22 @@
+SENTINELMED P5 STRATEGY EVALUATION
+Dataset: 4 synthetic replay records
+Review budget: 2 cases
+Targets: synthetic demonstration labels only
+
+Strategy: random
+  Cases reviewed: 2
+  Correctly identified: 1
+  Recall at budget: 0.5
+  Precision at budget: 0.5
+
+Strategy: uncertainty_only
+  Cases reviewed: 2
+  Correctly identified: 2
+  Recall at budget: 1.0
+  Precision at budget: 1.0
+
+Strategy: recoverability_aware
+  Cases reviewed: 2
+  Correctly identified: 2
+  Recall at budget: 1.0
+  Precision at budget: 1.0

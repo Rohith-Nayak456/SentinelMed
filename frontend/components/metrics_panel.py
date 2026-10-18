@@ -20,7 +20,7 @@ def render_metrics_panel(result: SentinelResult):
     st.markdown('<div class="sm-card">', unsafe_allow_html=True)
     st.markdown("### 3. Quality & Uncertainty Metrics")
     st.markdown(
-        '<p style="color: #65747B; font-size: 0.9rem; margin-top: -6px;">'
+        '<p style="color: #64748B; font-size: 0.9rem; margin-top: -6px;">'
         'Inspection telemetry used by the SentinelMed conformal reliability gate.'
         '</p>',
         unsafe_allow_html=True,
@@ -66,10 +66,10 @@ def render_metrics_panel(result: SentinelResult):
 
     # Latency Breakdown (Only displayed when measured values are supplied)
     if result.latency_ms:
-        st.markdown("<hr style='margin: 16px 0; border-color: #E3E6E2;'>", unsafe_allow_html=True)
+        st.markdown("<hr style='margin: 16px 0; border-color: #E2E8F0;'>", unsafe_allow_html=True)
         st.markdown("<strong>Measured Pipeline Latency</strong>", unsafe_allow_html=True)
         st.markdown(
-            '<p style="color: #65747B; font-size: 0.82rem; margin-top: -4px;">'
+            '<p style="color: #64748B; font-size: 0.82rem; margin-top: -4px;">'
             'Recorded execution times across pipeline stages (target: < 1000 ms to be benchmarked).'
             '</p>',
             unsafe_allow_html=True,
@@ -84,7 +84,7 @@ def render_metrics_panel(result: SentinelResult):
     # Technical Details / Raw Schema Inspection
     with st.expander("Technical Details & Raw Schema Output"):
         st.markdown(
-            '<p style="color: #65747B; font-size: 0.82rem;">'
+            '<p style="color: #64748B; font-size: 0.82rem;">'
             'Direct inspection of backend payload for debugging and schema verification.'
             '</p>',
             unsafe_allow_html=True,
@@ -94,6 +94,8 @@ def render_metrics_panel(result: SentinelResult):
             "scan_id": result.scan_id,
             "pred": result.pred,
             "confidence": result.confidence,
+            "priority": result.priority,
+            "doctor_status": result.doctor_status,
             "gate": result.gate,
             "cause": result.cause,
             "recoverability": result.recoverability,

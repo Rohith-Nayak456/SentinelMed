@@ -3,11 +3,23 @@ Tests for SentinelMed Result Schema Validator & Normalizer
 """
 
 import pytest
-from frontend.services.result_schema import validate_result, SentinelResult, ALLOWED_VERDICTS
+from frontend.services.result_schema import (
+    validate_result,
+    SentinelResult,
+    ALLOWED_VERDICTS,
+    ALLOWED_PRIORITIES,
+    ALLOWED_DOCTOR_STATUSES,
+)
 
 
 def test_allowed_verdicts():
     assert ALLOWED_VERDICTS == {"accepted", "auto_fixed", "escalated"}
+
+
+def test_allowed_priorities_and_doctor_statuses():
+    assert ALLOWED_PRIORITIES == {"Critical", "High", "Medium", "Low"}
+    assert "pending_review" in ALLOWED_DOCTOR_STATUSES
+    assert "approved" in ALLOWED_DOCTOR_STATUSES
 
 
 def test_valid_minimal_result():
@@ -106,6 +118,30 @@ def test_latency_handling():
     is_valid, errors, result = validate_result(payload_none)
     assert is_valid is True
     assert result.total_latency_ms is None
+
+
+def test_priority_validation():
+    for p in ["Critical", "High", "Medium", "Low", "critical", "high"]:
+        is_valid, errors, result = validate_result({"verdict": "escalated", "priority": p})
+        assert is_valid is True
+        assert result.priority == p.capitalize()
+
+    # Invalid priority
+    is_valid, errors, result = validate_result({"verdict": "escalated", "priority": "Emergency"})
+    assert is_valid is False
+    assert any("Invalid priority" in e for e in errors)
+
+
+def test_doctor_status_validation():
+    for status in ["pending_review", "approved", "retake_ordered", "escalation_confirmed"]:
+        is_valid, errors, result = validate_result({"verdict": "escalated", "doctor_status": status})
+        assert is_valid is True
+        assert result.doctor_status == status
+
+    # Invalid status
+    is_valid, errors, result = validate_result({"verdict": "escalated", "doctor_status": "unknown_action"})
+    assert is_valid is False
+    assert any("Invalid doctor_status" in e for e in errors)
 
 
 def test_raw_extra_fields_preserved():
