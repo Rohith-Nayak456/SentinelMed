@@ -1,0 +1,28 @@
+{
+  "image_id": "val_0",
+  "p3_component": "Conformal Gate",
+  "status": "ACCEPT",
+  "accept": true,
+  "flag_for_review": false,
+  "predicted_class": "Pneumonia",
+  "prediction_set": [
+    "Pneumonia"
+  ],
+  "gate_information": {
+    "method": "split_conformal_classification",
+    "nonconformity_score": "1 - probability assigned to the true class",
+    "alpha": 0.1,
+    "target_marginal_coverage": 0.9,
+    "calibration_sample_count": 20,
+    "conformal_quantile_q_hat": 0.12,
+    "probability_inclusion_threshold": 0.88,
+    "calibration_model_version": "resnet18-epoch-2",
+    "p1_model_version": "resnet18-epoch-2",
+    "model_version_match": true,
+    "prediction_set_size": 1,
+    "reasons": [
+      "singleton prediction set matches P1 predicted_class"
+    ],
+    "warning": "Use real, labelled calibration predictions from the same model version and a representative calibration population before interpreting this as a meaningful reliability result. Synthetic demo calibration is for software testing only."
+  }
+}
