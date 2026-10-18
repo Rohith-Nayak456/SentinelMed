@@ -221,3 +221,8 @@ __marimo__/
 
 # Local environment wrapper
 powershell.cmd
+
+# Project outputs and datasets (Local / Non-source artifacts)
+outputs/
+data/
+datasets/
